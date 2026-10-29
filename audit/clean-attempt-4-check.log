@@ -1,0 +1,82 @@
+
+> nvuto-design-system@0.1.0-extraction.1 check
+> npm run generate -- --check && npm run lint && npm run typecheck && npm run snippets:check && npm test
+
+
+> nvuto-design-system@0.1.0-extraction.1 generate
+> node scripts/generate-tokens.mjs --check
+
+Verified 242 token paths × 2 themes.
+
+> nvuto-design-system@0.1.0-extraction.1 lint
+> node scripts/lint.mjs
+
+Boundary, stable-ID, docs-link and scoped-selector checks passed.
+
+> nvuto-design-system@0.1.0-extraction.1 typecheck
+> tsc --noEmit -p tsconfig.json
+
+
+> nvuto-design-system@0.1.0-extraction.1 snippets:check
+> node scripts/check-snippets.mjs
+
+59 complete public-import snippets type-check.
+
+> nvuto-design-system@0.1.0-extraction.1 test
+> vitest run
+
+
+ RUN  v4.1.11 C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod
+
+ ✓ tests/tokens.test.ts (10 tests) 32ms
+ ✓ tests/interaction.test.tsx (5 tests) 221ms
+ ✓ tests/ssr.test.tsx (1 test) 65ms
+ ✓ tests/hydration.test.tsx (1 test) 141ms
+ ✓ tests/layouts.test.tsx (4 tests) 175ms
+ ✓ tests/form-composition.test.tsx (2 tests) 231ms
+
+ Test Files  6 passed (6)
+      Tests  23 passed (23)
+   Start at  11:14:45
+   Duration  84.58s (transform 15.72s, setup 9.31s, import 318.91s, tests 865ms, environment 53.72s)
+
+JSON report written to C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/audit/unit-results.json
+
+stderr | tests/hydration.test.tsx > hydrates stable IDs without recoverable mismatches
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-presence/dist/index.mjs:19:11)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:97:13
+    at button
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-primitive/dist/index.mjs:26:13
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-presence/dist/index.mjs:19:11)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:97:13
+    at button
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-primitive/dist/index.mjs:26:13
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at BubbleInput (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:113:11)
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+

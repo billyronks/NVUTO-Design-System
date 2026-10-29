@@ -1,0 +1,23 @@
+{
+  "directory": "C:\\Users\\thobb\\AppData\\Local\\Temp\\nvuto-design-system-consumer-MFpQNG",
+  "steps": [
+    {
+      "command": "npm install --ignore-scripts --no-audit --no-fund",
+      "status": 0
+    },
+    {
+      "command": "npm run build",
+      "status": 0
+    }
+  ],
+  "exports": {
+    "ui": "file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-consumer-MFpQNG/node_modules/nvuto-hr-ui/dist/index.js",
+    "foundations": "file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-consumer-MFpQNG/node_modules/nvuto-hr-foundations/dist/index.js",
+    "exports": 262,
+    "ssr": true
+  },
+  "result": "FAIL",
+  "serverCommand": "npm start",
+  "evidencePreserved": true,
+  "failure": "Browser timeout: drawer remained open after Escape issued immediately following visibility. Focus-entry readiness was not asserted by the original harness."
+}

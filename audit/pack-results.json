@@ -1,0 +1,555 @@
+[
+  {
+    "id": "nvuto-hr-foundations@0.1.0-extraction.1",
+    "name": "nvuto-hr-foundations",
+    "version": "0.1.0-extraction.1",
+    "size": 126109,
+    "unpackedSize": 237910,
+    "shasum": "2b58cfd88798a6f866afddb77aec806dc2b256d1",
+    "integrity": "sha512-VN8lYY4opafu7SiXfaZYE2fVEPquYQ/PMTov5GrP7Tj5xyEUc6HxbbdJ3gC7/0uRVw5C6JNm5ckoAYr1E9dpQQ==",
+    "filename": "nvuto-hr-foundations-0.1.0-extraction.1.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 438,
+        "mode": 420
+      },
+      {
+        "path": "assets/NVUTO-HR-White.svg",
+        "size": 2852,
+        "mode": 420
+      },
+      {
+        "path": "assets/NVUTO-HR.svg",
+        "size": 2852,
+        "mode": 420
+      },
+      {
+        "path": "assets/NVUTO-Logo.svg",
+        "size": 894,
+        "mode": 420
+      },
+      {
+        "path": "assets/NVUTO-Wordmark.svg",
+        "size": 2449,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 22197,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 24660,
+        "mode": 420
+      },
+      {
+        "path": "dist/styles.css",
+        "size": 32166,
+        "mode": 420
+      },
+      {
+        "path": "dist/tokens.json",
+        "size": 24541,
+        "mode": 420
+      },
+      {
+        "path": "fonts.css",
+        "size": 1570,
+        "mode": 420
+      },
+      {
+        "path": "fonts/jetbrains-mono-latin-400-normal.woff2",
+        "size": 21168,
+        "mode": 420
+      },
+      {
+        "path": "fonts/jetbrains-mono-latin-500-normal.woff2",
+        "size": 21832,
+        "mode": 420
+      },
+      {
+        "path": "fonts/jetbrains-mono-latin-600-normal.woff2",
+        "size": 21860,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-300-normal.woff2",
+        "size": 7840,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-400-normal.woff2",
+        "size": 7884,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-500-normal.woff2",
+        "size": 7748,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-600-normal.woff2",
+        "size": 8000,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-700-normal.woff2",
+        "size": 7816,
+        "mode": 420
+      },
+      {
+        "path": "fonts/poppins-latin-800-normal.woff2",
+        "size": 7824,
+        "mode": 420
+      },
+      {
+        "path": "notices/jetbrains-mono-OFL.txt",
+        "size": 4524,
+        "mode": 420
+      },
+      {
+        "path": "notices/poppins-OFL.txt",
+        "size": 6175,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 620,
+        "mode": 420
+      }
+    ],
+    "entryCount": 22,
+    "bundled": []
+  },
+  {
+    "id": "nvuto-hr-ui@0.1.0-extraction.1",
+    "name": "nvuto-hr-ui",
+    "version": "0.1.0-extraction.1",
+    "size": 178946,
+    "unpackedSize": 953985,
+    "shasum": "b44f0007ce41b1a028e4063816dba5898dbbf5ef",
+    "integrity": "sha512-9JUyz4TEG0MqRAiLSc4iSpiyYNwzvO86k1dc4SFUkuzAdG+FR6zjT/kZCzzP5dkTQDQ8yVxi9ksrf2t/r94gnA==",
+    "filename": "nvuto-hr-ui-0.1.0-extraction.1.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 498,
+        "mode": 420
+      },
+      {
+        "path": "dist/accordion.d.ts",
+        "size": 795,
+        "mode": 420
+      },
+      {
+        "path": "dist/alert-dialog.d.ts",
+        "size": 1999,
+        "mode": 420
+      },
+      {
+        "path": "dist/alert.d.ts",
+        "size": 709,
+        "mode": 420
+      },
+      {
+        "path": "dist/aspect-ratio.d.ts",
+        "size": 235,
+        "mode": 420
+      },
+      {
+        "path": "dist/avatar.d.ts",
+        "size": 803,
+        "mode": 420
+      },
+      {
+        "path": "dist/badge.d.ts",
+        "size": 658,
+        "mode": 420
+      },
+      {
+        "path": "dist/breadcrumb.d.ts",
+        "size": 1096,
+        "mode": 420
+      },
+      {
+        "path": "dist/button.d.ts",
+        "size": 770,
+        "mode": 420
+      },
+      {
+        "path": "dist/calendar.d.ts",
+        "size": 261,
+        "mode": 420
+      },
+      {
+        "path": "dist/CalendarGrid.d.ts",
+        "size": 235,
+        "mode": 420
+      },
+      {
+        "path": "dist/card.d.ts",
+        "size": 1921,
+        "mode": 420
+      },
+      {
+        "path": "dist/carousel.d.ts",
+        "size": 1372,
+        "mode": 420
+      },
+      {
+        "path": "dist/chart.d.ts",
+        "size": 1812,
+        "mode": 420
+      },
+      {
+        "path": "dist/checkbox.d.ts",
+        "size": 431,
+        "mode": 420
+      },
+      {
+        "path": "dist/collapsible.d.ts",
+        "size": 598,
+        "mode": 420
+      },
+      {
+        "path": "dist/command.d.ts",
+        "size": 1626,
+        "mode": 420
+      },
+      {
+        "path": "dist/ContentPanel.d.ts",
+        "size": 1441,
+        "mode": 420
+      },
+      {
+        "path": "dist/context-menu.d.ts",
+        "size": 2943,
+        "mode": 420
+      },
+      {
+        "path": "dist/DataTable.d.ts",
+        "size": 2766,
+        "mode": 420
+      },
+      {
+        "path": "dist/DatePicker.d.ts",
+        "size": 285,
+        "mode": 420
+      },
+      {
+        "path": "dist/dialog.d.ts",
+        "size": 1700,
+        "mode": 420
+      },
+      {
+        "path": "dist/dropdown-menu.d.ts",
+        "size": 3361,
+        "mode": 420
+      },
+      {
+        "path": "dist/EmptyState.d.ts",
+        "size": 612,
+        "mode": 420
+      },
+      {
+        "path": "dist/form.d.ts",
+        "size": 1779,
+        "mode": 420
+      },
+      {
+        "path": "dist/hover-card.d.ts",
+        "size": 617,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 1810,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 195749,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js.map",
+        "size": 405082,
+        "mode": 420
+      },
+      {
+        "path": "dist/input-otp.d.ts",
+        "size": 735,
+        "mode": 420
+      },
+      {
+        "path": "dist/input.d.ts",
+        "size": 429,
+        "mode": 420
+      },
+      {
+        "path": "dist/KanbanBoard.d.ts",
+        "size": 656,
+        "mode": 420
+      },
+      {
+        "path": "dist/label.d.ts",
+        "size": 339,
+        "mode": 420
+      },
+      {
+        "path": "dist/layouts.d.ts",
+        "size": 4884,
+        "mode": 420
+      },
+      {
+        "path": "dist/library.d.ts",
+        "size": 48,
+        "mode": 420
+      },
+      {
+        "path": "dist/menubar.d.ts",
+        "size": 2962,
+        "mode": 420
+      },
+      {
+        "path": "dist/MetricCard.d.ts",
+        "size": 836,
+        "mode": 420
+      },
+      {
+        "path": "dist/Modal.d.ts",
+        "size": 252,
+        "mode": 420
+      },
+      {
+        "path": "dist/MultiSelectCombobox.d.ts",
+        "size": 581,
+        "mode": 420
+      },
+      {
+        "path": "dist/NativeSelect.d.ts",
+        "size": 269,
+        "mode": 420
+      },
+      {
+        "path": "dist/navigation-menu.d.ts",
+        "size": 1815,
+        "mode": 420
+      },
+      {
+        "path": "dist/NvutoProvider.d.ts",
+        "size": 952,
+        "mode": 420
+      },
+      {
+        "path": "dist/PageHeader.d.ts",
+        "size": 372,
+        "mode": 420
+      },
+      {
+        "path": "dist/patterns.d.ts",
+        "size": 1414,
+        "mode": 420
+      },
+      {
+        "path": "dist/popover.d.ts",
+        "size": 750,
+        "mode": 420
+      },
+      {
+        "path": "dist/progress.d.ts",
+        "size": 269,
+        "mode": 420
+      },
+      {
+        "path": "dist/ProgressBar.d.ts",
+        "size": 248,
+        "mode": 420
+      },
+      {
+        "path": "dist/radio-group.d.ts",
+        "size": 443,
+        "mode": 420
+      },
+      {
+        "path": "dist/Radio.d.ts",
+        "size": 280,
+        "mode": 420
+      },
+      {
+        "path": "dist/resizable.d.ts",
+        "size": 677,
+        "mode": 420
+      },
+      {
+        "path": "dist/scroll-area.d.ts",
+        "size": 496,
+        "mode": 420
+      },
+      {
+        "path": "dist/SearchableCombobox.d.ts",
+        "size": 655,
+        "mode": 420
+      },
+      {
+        "path": "dist/select.d.ts",
+        "size": 2372,
+        "mode": 420
+      },
+      {
+        "path": "dist/separator.d.ts",
+        "size": 292,
+        "mode": 420
+      },
+      {
+        "path": "dist/sheet.d.ts",
+        "size": 1382,
+        "mode": 420
+      },
+      {
+        "path": "dist/skeleton.d.ts",
+        "size": 143,
+        "mode": 420
+      },
+      {
+        "path": "dist/slider.d.ts",
+        "size": 283,
+        "mode": 420
+      },
+      {
+        "path": "dist/StatusBadge.d.ts",
+        "size": 382,
+        "mode": 420
+      },
+      {
+        "path": "dist/styles.css",
+        "size": 140803,
+        "mode": 420
+      },
+      {
+        "path": "dist/switch.d.ts",
+        "size": 252,
+        "mode": 420
+      },
+      {
+        "path": "dist/tabs.d.ts",
+        "size": 716,
+        "mode": 420
+      },
+      {
+        "path": "dist/textarea.d.ts",
+        "size": 367,
+        "mode": 420
+      },
+      {
+        "path": "dist/Toast.d.ts",
+        "size": 299,
+        "mode": 420
+      },
+      {
+        "path": "dist/toggle-group.d.ts",
+        "size": 682,
+        "mode": 420
+      },
+      {
+        "path": "dist/toggle.d.ts",
+        "size": 564,
+        "mode": 420
+      },
+      {
+        "path": "dist/ToggleSwitch.d.ts",
+        "size": 317,
+        "mode": 420
+      },
+      {
+        "path": "dist/tooltip.d.ts",
+        "size": 774,
+        "mode": 420
+      },
+      {
+        "path": "dist/Typography.d.ts",
+        "size": 386,
+        "mode": 420
+      },
+      {
+        "path": "dist/unscoped.css",
+        "size": 126619,
+        "mode": 420
+      },
+      {
+        "path": "dist/use-mobile.d.ts",
+        "size": 48,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils.d.ts",
+        "size": 101,
+        "mode": 420
+      },
+      {
+        "path": "notices/@solar-icons-react-LICENSE",
+        "size": 1322,
+        "mode": 420
+      },
+      {
+        "path": "notices/@solar-icons-react-LICENSE-THIRD-PARTY",
+        "size": 685,
+        "mode": 420
+      },
+      {
+        "path": "notices/class-variance-authority-LICENSE",
+        "size": 10753,
+        "mode": 420
+      },
+      {
+        "path": "notices/clsx-license",
+        "size": 1104,
+        "mode": 420
+      },
+      {
+        "path": "notices/cmdk-LICENSE.md",
+        "size": 1069,
+        "mode": 420
+      },
+      {
+        "path": "notices/framer-motion-LICENSE.md",
+        "size": 1078,
+        "mode": 420
+      },
+      {
+        "path": "notices/react-day-picker-LICENSE",
+        "size": 1122,
+        "mode": 420
+      },
+      {
+        "path": "notices/react-hook-form-LICENSE",
+        "size": 1080,
+        "mode": 420
+      },
+      {
+        "path": "notices/recharts-LICENSE",
+        "size": 1084,
+        "mode": 420
+      },
+      {
+        "path": "notices/SOURCE-ATTRIBUTIONS.md",
+        "size": 443,
+        "mode": 420
+      },
+      {
+        "path": "notices/tailwind-merge-LICENSE.md",
+        "size": 1070,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2067,
+        "mode": 420
+      }
+    ],
+    "entryCount": 83,
+    "bundled": []
+  }
+]

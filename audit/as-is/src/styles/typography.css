@@ -1,0 +1,288 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+ * NVUTO Canonical Typography System — Granular Token Specification
+ * Enforces unified typography hierarchy across Light and Dark mode.
+ * ───────────────────────────────────────────────────────────────────────────── */
+
+@layer utilities {
+  /* ── A. Display & Hero Elements ── */
+  .nvuto-display-xl {
+    font-family: var(--font-sans);
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.75rem; /* 44px */
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #020617; /* text-slate-950 */
+  }
+  .dark .nvuto-display-xl {
+    color: #FFFFFF;
+  }
+
+  .nvuto-display-lg {
+    font-family: var(--font-sans);
+    font-size: 1.75rem; /* 28px */
+    line-height: 2.25rem; /* 36px */
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: #0F172A; /* text-slate-900 */
+  }
+  .dark .nvuto-display-lg {
+    color: #F8FAFC; /* dark:text-slate-50 */
+  }
+
+  /* ── B. Section & Card Headers ── */
+  .nvuto-h1 {
+    font-family: var(--font-sans);
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #0F172A; /* text-slate-900 */
+  }
+  .dark .nvuto-h1 {
+    color: #F1F5F9; /* dark:text-slate-100 */
+  }
+
+  .nvuto-h2 {
+    font-family: var(--font-sans);
+    font-size: 1.0rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #1E293B; /* text-slate-800 */
+  }
+  .dark .nvuto-h2 {
+    color: #E2E8F0; /* dark:text-slate-200 */
+  }
+
+  .nvuto-h3 {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem; /* 11px */
+    line-height: 1.0rem; /* 16px */
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #64748B; /* text-slate-500 */
+  }
+  .dark .nvuto-h3 {
+    color: #94A3B8; /* dark:text-slate-400 */
+  }
+
+  /* ── C. Body & Content Text ── */
+  .nvuto-body-lg {
+    font-family: var(--font-sans);
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.375rem; /* 22px */
+    font-weight: 400;
+    color: #334155; /* text-slate-700 */
+  }
+  .dark .nvuto-body-lg {
+    color: #CBD5E1; /* dark:text-slate-300 */
+  }
+
+  .nvuto-body-lg-medium {
+    font-family: var(--font-sans);
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.375rem; /* 22px */
+    font-weight: 500;
+    color: #334155; /* text-slate-700 */
+  }
+  .dark .nvuto-body-lg-medium {
+    color: #CBD5E1; /* dark:text-slate-300 */
+  }
+
+  .nvuto-body {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem; /* 13px */
+    line-height: 1.25rem; /* 20px */
+    font-weight: 400;
+    color: #475569; /* text-slate-600 */
+  }
+  .dark .nvuto-body {
+    color: #CBD5E1; /* dark:text-slate-300 */
+  }
+
+  .nvuto-body-medium {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem; /* 13px */
+    line-height: 1.25rem; /* 20px */
+    font-weight: 500;
+    color: #475569; /* text-slate-600 */
+  }
+  .dark .nvuto-body-medium {
+    color: #CBD5E1; /* dark:text-slate-300 */
+  }
+
+  .nvuto-caption {
+    font-family: var(--font-sans);
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.0rem; /* 16px */
+    font-weight: 400;
+    color: #64748B; /* text-slate-500 */
+  }
+  .dark .nvuto-caption {
+    color: #94A3B8; /* dark:text-slate-400 */
+  }
+
+  .nvuto-caption-medium {
+    font-family: var(--font-sans);
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.0rem; /* 16px */
+    font-weight: 500;
+    color: #64748B; /* text-slate-500 */
+  }
+  .dark .nvuto-caption-medium {
+    color: #94A3B8; /* dark:text-slate-400 */
+  }
+
+  /* ── D. Form Controls & Micro-Copy ── */
+  .nvuto-label {
+    font-family: var(--font-sans);
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.0rem; /* 16px */
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #334155; /* text-slate-700 */
+  }
+  .dark .nvuto-label {
+    color: #E2E8F0; /* dark:text-slate-200 */
+  }
+
+  .nvuto-input-text {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem; /* 13px */
+    line-height: 1.25rem; /* 20px */
+    font-weight: 400;
+    color: #0F172A; /* text-slate-900 */
+  }
+  .dark .nvuto-input-text {
+    color: #F1F5F9; /* dark:text-slate-100 */
+  }
+  .nvuto-input-text::placeholder {
+    color: #94A3B8; /* text-slate-400 */
+  }
+  .dark .nvuto-input-text::placeholder {
+    color: #64748B; /* dark:text-slate-500 */
+  }
+
+  .nvuto-btn-text {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem; /* 13px */
+    line-height: 1.125rem; /* 18px */
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  .nvuto-btn-text-compact {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem; /* 11px */
+    line-height: 0.875rem; /* 14px */
+    font-weight: 600;
+  }
+
+  .nvuto-btn-primary {
+    font-family: var(--font-sans) !important;
+    background-color: #FF4F00 !important;
+    color: #FFFFFF !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    font-size: 0.875rem !important; /* 14px */
+    line-height: 1.25rem !important;
+    font-weight: 700 !important;
+    border-radius: 0.5rem !important;
+    border: none !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+  .nvuto-btn-primary:hover {
+    background-color: #E04500 !important;
+  }
+  .nvuto-btn-primary:active {
+    background-color: #CC3F00 !important;
+  }
+
+  /* ── E. System Traces & Monospace Data ── */
+  .nvuto-mono {
+    font-family: var(--font-mono);
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.0rem; /* 16px */
+    font-weight: 500;
+    color: #1E293B; /* text-slate-800 */
+  }
+  .dark .nvuto-mono {
+    color: #E2E8F0; /* dark:text-slate-200 */
+  }
+
+  .nvuto-code {
+    font-family: var(--font-mono);
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.0rem;
+    background-color: var(--slate-150);
+    color: var(--slate-850);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--slate-250);
+  }
+  .dark .nvuto-code {
+    background-color: #171E2E;
+    color: #E2E8F0;
+    border-color: #334155;
+  }
+
+  /* ── F. Semantic Color & Status Pairing Utilities ── */
+  .text-nvuto-primary {
+    color: #0F172A;
+  }
+  .dark .text-nvuto-primary {
+    color: #F1F5F9;
+  }
+
+  .text-nvuto-secondary {
+    color: #475569;
+  }
+  .dark .text-nvuto-secondary {
+    color: #CBD5E1;
+  }
+
+  .text-nvuto-muted {
+    color: #94A3B8;
+  }
+  .dark .text-nvuto-muted {
+    color: #94A3B8;
+  }
+
+  .text-nvuto-accent {
+    color: #FF4F00;
+  }
+  .dark .text-nvuto-accent {
+    color: #FF6A26;
+  }
+
+  .text-nvuto-success {
+    color: #047857;
+  }
+  .dark .text-nvuto-success {
+    color: #34D399;
+  }
+
+  .text-nvuto-warning {
+    color: #B45309;
+  }
+  .dark .text-nvuto-warning {
+    color: #FBBF24;
+  }
+
+  .text-nvuto-error {
+    color: #DC2626;
+  }
+  .dark .text-nvuto-error {
+    color: #F87171;
+  }
+}

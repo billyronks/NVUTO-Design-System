@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/browser',workers:1,timeout:60000,use:{baseURL:'http://127.0.0.1:5187',browserName:'chromium',headless:true,reducedMotion:'reduce'},reporter:[['list'],['json',{outputFile:'audit/browser-results.json'}]],outputDir:'audit/browser-artifacts',webServer:{command:'npm run preview:catalogue',url:'http://127.0.0.1:5187',reuseExistingServer:!process.env.CI,timeout:60000}});

@@ -1,0 +1,66 @@
+{
+  "method": "WCAG 2.2 relative luminance and contrast ratio, sRGB opaque colors",
+  "reference": "https://www.w3.org/TR/WCAG22/",
+  "pairs": [
+    {
+      "usage": "source primary small text",
+      "foreground": "#FFFFFF",
+      "background": "#FF4F00",
+      "ratio": 3.296,
+      "normalTextAA": false,
+      "largeTextOrNonText3to1": true,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    },
+    {
+      "usage": "source active action",
+      "foreground": "#FFFFFF",
+      "background": "#CC3F00",
+      "ratio": 4.908,
+      "normalTextAA": true,
+      "largeTextOrNonText3to1": true,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    },
+    {
+      "usage": "light foreground",
+      "foreground": "#1E293B",
+      "background": "#F8FAFC",
+      "ratio": 13.982,
+      "normalTextAA": true,
+      "largeTextOrNonText3to1": true,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    },
+    {
+      "usage": "dark foreground",
+      "foreground": "#F8FAFC",
+      "background": "#0B0F19",
+      "ratio": 18.303,
+      "normalTextAA": true,
+      "largeTextOrNonText3to1": true,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    },
+    {
+      "usage": "source focus teal on light",
+      "foreground": "#00D1B2",
+      "background": "#FFFFFF",
+      "ratio": 1.951,
+      "normalTextAA": false,
+      "largeTextOrNonText3to1": false,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    },
+    {
+      "usage": "source focus teal on dark",
+      "foreground": "#00D1B2",
+      "background": "#111625",
+      "ratio": 9.236,
+      "normalTextAA": true,
+      "largeTextOrNonText3to1": true,
+      "source": "src/styles/theme.css; src/app/components/ui/button.tsx",
+      "evidence": "OBSERVED opaque pair calculation; composed alpha states require separate measurement"
+    }
+  ]
+}

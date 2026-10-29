@@ -1,0 +1,5775 @@
+[
+  {
+    "id": "ui-9485d5ce5da4",
+    "name": "BrandIcons",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/BrandIcons.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "0b1b75500ca19801721bcfc151dc3bc1845bcd30493a2f038837006a51ac4d34",
+      "exports": [
+        {
+          "name": "SlackIcon",
+          "line": 21,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "LinkedInIcon",
+          "line": 30,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "GoogleIcon",
+          "line": 39,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "GoogleCalendarIcon",
+          "line": 48,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "MicrosoftIcon",
+          "line": 57,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "XeroIcon",
+          "line": 70,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "QuickBooksIcon",
+          "line": 79,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "IndeedIcon",
+          "line": 88,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "GlassdoorIcon",
+          "line": 97,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "GreenhouseIcon",
+          "line": 106,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "ZipRecruiterIcon",
+          "line": 115,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "JobbermanIcon",
+          "line": 129,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "JoobleIcon",
+          "line": 139,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "MyJobMagIcon",
+          "line": 146,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "GenericBrandMark",
+          "line": 153,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "BrandKey",
+          "line": 167,
+          "kind": "TypeAliasDeclaration"
+        },
+        {
+          "name": "BRAND_ICON_GAPS",
+          "line": 200,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "resolveBrandKeyFromName",
+          "line": 203,
+          "kind": "FunctionDeclaration"
+        },
+        {
+          "name": "IntegrationLogo",
+          "line": 234,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/BrandIcons.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "SlackIcon",
+        "line": 21,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "LinkedInIcon",
+        "line": 30,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "GoogleIcon",
+        "line": 39,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "GoogleCalendarIcon",
+        "line": 48,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "MicrosoftIcon",
+        "line": 57,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "XeroIcon",
+        "line": 70,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "QuickBooksIcon",
+        "line": 79,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "IndeedIcon",
+        "line": 88,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "GlassdoorIcon",
+        "line": 97,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "GreenhouseIcon",
+        "line": 106,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "ZipRecruiterIcon",
+        "line": 115,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "JobbermanIcon",
+        "line": 129,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "JoobleIcon",
+        "line": 139,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "MyJobMagIcon",
+        "line": 146,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "GenericBrandMark",
+        "line": 153,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "BrandKey",
+        "line": 167,
+        "kind": "TypeAliasDeclaration"
+      },
+      {
+        "name": "BRAND_ICON_GAPS",
+        "line": 200,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "resolveBrandKeyFromName",
+        "line": 203,
+        "kind": "FunctionDeclaration"
+      },
+      {
+        "name": "IntegrationLogo",
+        "line": 234,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-b82fb36ae138",
+    "name": "CalendarGrid",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/CalendarGrid.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "e5e8a544271e5a96e6015166760af9961fa21977b6987331798510d62ada25c0",
+      "exports": [
+        {
+          "name": "CalendarGridProps",
+          "line": 1,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CalendarGrid",
+          "line": 5,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/CalendarGrid.tsx",
+    "documentation": "docs/components/CalendarGrid.md",
+    "catalogue": "/#component-CalendarGrid",
+    "exports": [
+      {
+        "name": "CalendarGridProps",
+        "line": 1,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CalendarGrid",
+        "line": 5,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#0B0F19",
+        "#232D42"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-ed7075ce3752",
+    "name": "ContentPanel",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/ContentPanel.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "17d502c074d7f6349c8149a60f00bd66eecfd2bd5c4f8cc43021ad5b1c5cf3a2",
+      "exports": [
+        {
+          "name": "ContentPanelProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ContentPanel",
+          "line": 8,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "ContentPanelHeaderProps",
+          "line": 42,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ContentPanelHeader",
+          "line": 50,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "ContentPanelBodyProps",
+          "line": 96,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ContentPanelBody",
+          "line": 101,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "ContentPanelFooterProps",
+          "line": 120,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ContentPanelFooter",
+          "line": 125,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "FormSectionProps",
+          "line": 151,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "FormSection",
+          "line": 158,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/ContentPanel.tsx",
+    "documentation": "docs/components/ContentPanel.md",
+    "catalogue": "/#component-ContentPanel",
+    "exports": [
+      {
+        "name": "ContentPanelProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ContentPanel",
+        "line": 8,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "ContentPanelHeaderProps",
+        "line": 42,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ContentPanelHeader",
+        "line": 50,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "ContentPanelBodyProps",
+        "line": 96,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ContentPanelBody",
+        "line": 101,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "ContentPanelFooterProps",
+        "line": 120,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ContentPanelFooter",
+        "line": 125,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "FormSectionProps",
+        "line": 151,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "FormSection",
+        "line": 158,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#232D42",
+        "#171E2E",
+        "#FF4F00",
+        "#F8FAFC",
+        "#94A3B8"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-cfff15676b20",
+    "name": "DataTable",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/DataTable.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "2f8df6ecf3795da3108bda43eeed432af03e61993d65042ca96fc2f4473bb704",
+      "exports": [
+        {
+          "name": "TableWrapperProps",
+          "line": 5,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableWrapper",
+          "line": 10,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableToolbarProps",
+          "line": 25,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableToolbar",
+          "line": 30,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableProps",
+          "line": 45,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Table",
+          "line": 51,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableHeadProps",
+          "line": 69,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableHead",
+          "line": 74,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableHeaderCellProps",
+          "line": 89,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableHeaderCell",
+          "line": 94,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableBodyProps",
+          "line": 113,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableBody",
+          "line": 118,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableRowProps",
+          "line": 133,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableRow",
+          "line": 138,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableCellProps",
+          "line": 153,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableCell",
+          "line": 158,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TablePaginationProps",
+          "line": 177,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TablePagination",
+          "line": 189,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableLoadingSkeletonProps",
+          "line": 291,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableLoadingSkeleton",
+          "line": 299,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableEmptyStateProps",
+          "line": 327,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableEmptyState",
+          "line": 339,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "TableErrorStateProps",
+          "line": 366,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "TableErrorState",
+          "line": 376,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/DataTable.tsx",
+    "documentation": "docs/components/DataTable.md",
+    "catalogue": "/#component-DataTable",
+    "exports": [
+      {
+        "name": "TableWrapperProps",
+        "line": 5,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableWrapper",
+        "line": 10,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableToolbarProps",
+        "line": 25,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableToolbar",
+        "line": 30,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableProps",
+        "line": 45,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Table",
+        "line": 51,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableHeadProps",
+        "line": 69,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableHead",
+        "line": 74,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableHeaderCellProps",
+        "line": 89,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableHeaderCell",
+        "line": 94,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableBodyProps",
+        "line": 113,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableBody",
+        "line": 118,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableRowProps",
+        "line": 133,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableRow",
+        "line": 138,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableCellProps",
+        "line": 153,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableCell",
+        "line": 158,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TablePaginationProps",
+        "line": 177,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TablePagination",
+        "line": 189,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableLoadingSkeletonProps",
+        "line": 291,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableLoadingSkeleton",
+        "line": 299,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableEmptyStateProps",
+        "line": 327,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableEmptyState",
+        "line": 339,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "TableErrorStateProps",
+        "line": 366,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "TableErrorState",
+        "line": 376,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Use TableWrapper/Toolbar/Table/Head/Row/Cell and Pagination. Host owns rows, sort, selection and backend paging. Horizontal scroll region remains keyboard reachable. Provide caption/headers for meaning; avoid color-only statuses.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#232D42",
+        "#E2E8F0",
+        "#171E2E",
+        "#94A3B8",
+        "#0B0F19",
+        "#FF4F00",
+        "#F8FAFC",
+        "#1E293B"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-bf9ffe02f594",
+    "name": "DatePicker",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/DatePicker.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "8e88ccb9566ab73253847bc79461137e306a9126d54e4adc2d87834a22c18e6f",
+      "exports": [
+        {
+          "name": "DatePickerProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "DatePicker",
+          "line": 4,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/DatePicker.tsx",
+    "documentation": "docs/components/DatePicker.md",
+    "catalogue": "/#component-DatePicker",
+    "exports": [
+      {
+        "name": "DatePickerProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "DatePicker",
+        "line": 4,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-736b7eef388f",
+    "name": "EmptyState",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/EmptyState.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "1c794d179c1ea09361316c0b8df63a859fca454110631e12317e2ab4beb99411",
+      "exports": [
+        {
+          "name": "EmptyStateVariant",
+          "line": 12,
+          "kind": "TypeAliasDeclaration"
+        },
+        {
+          "name": "EmptyStateProps",
+          "line": 21,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "EmptyState",
+          "line": 96,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/EmptyState.tsx",
+    "documentation": "docs/components/EmptyState.md",
+    "catalogue": "/#component-EmptyState",
+    "exports": [
+      {
+        "name": "EmptyStateVariant",
+        "line": 12,
+        "kind": "TypeAliasDeclaration"
+      },
+      {
+        "name": "EmptyStateProps",
+        "line": 21,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "EmptyState",
+        "line": 96,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#94A3B8",
+        "#232D42",
+        "#FF4F00",
+        "#111625",
+        "#171E2E",
+        "#F8FAFC"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-b77e64567b30",
+    "name": "ErrorBoundary",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/ErrorBoundary.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "de58f539a617dc0bef05694d354bfb5e2f382e44eb1acfbcf5a9256cd4d9fd2e",
+      "exports": [
+        {
+          "name": "ErrorBoundaryProps",
+          "line": 9,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ErrorBoundaryState",
+          "line": 18,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ErrorBoundary",
+          "line": 25,
+          "kind": "ClassDeclaration"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/ErrorBoundary.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "ErrorBoundaryProps",
+        "line": 9,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ErrorBoundaryState",
+        "line": 18,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ErrorBoundary",
+        "line": 25,
+        "kind": "ClassDeclaration"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-a2a883d14754",
+    "name": "InteractiveGridBackground",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/InteractiveGridBackground.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "709670a559efa60f2d161d3983484d12157ff63c9b8ba36d10706688d7c59224",
+      "exports": [
+        {
+          "name": "InteractiveGridBackgroundProps",
+          "line": 1,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "InteractiveGridBackground",
+          "line": 32,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/InteractiveGridBackground.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "InteractiveGridBackgroundProps",
+        "line": 1,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "InteractiveGridBackground",
+        "line": 32,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-2e29a4e35b1b",
+    "name": "KanbanBoard",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/KanbanBoard.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d11a2806c1d5cda38ef1f39c7b013ac6085b0fbed0a22f1e4342ff087e49a618",
+      "exports": [
+        {
+          "name": "KanbanBoardProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "KanbanBoard",
+          "line": 6,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "KanbanColumnProps",
+          "line": 24,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "KanbanColumn",
+          "line": 33,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/KanbanBoard.tsx",
+    "documentation": "docs/components/KanbanBoard.md",
+    "catalogue": "/#component-KanbanBoard",
+    "exports": [
+      {
+        "name": "KanbanBoardProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "KanbanBoard",
+        "line": 6,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "KanbanColumnProps",
+        "line": 24,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "KanbanColumn",
+        "line": 33,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#0B0F19",
+        "#232D42",
+        "#F8FAFC",
+        "#94A3B8",
+        "#171E2E"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-c6efd0ba6a81",
+    "name": "MetricCard",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/MetricCard.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "30ffc5d5775c555e0db888f6d5298dcc2646f3e6b8ac566619cad5bd80c04a9e",
+      "exports": [
+        {
+          "name": "MetricCardProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "MetricCard",
+          "line": 24,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "KPICard",
+          "line": 151,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/MetricCard.tsx",
+    "documentation": "docs/components/MetricCard.md",
+    "catalogue": "/#component-MetricCard",
+    "exports": [
+      {
+        "name": "MetricCardProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "MetricCard",
+        "line": 24,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "KPICard",
+        "line": 151,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#94A3B8",
+        "#171E2E",
+        "#232D42",
+        "#111625",
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-33e8cd6a6aba",
+    "name": "Modal",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/Modal.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "34bd315d2469b2633b074bed8d50cce02572e4e6fdd074bdf12542d5a5477c79",
+      "exports": [
+        {
+          "name": "ModalProps",
+          "line": 4,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Modal",
+          "line": 12,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/Modal.tsx",
+    "documentation": "docs/components/Modal.md",
+    "catalogue": "/#component-Modal",
+    "exports": [
+      {
+        "name": "ModalProps",
+        "line": 4,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Modal",
+        "line": 12,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source custom motion dialog uses focus capture/return and Escape handling. It has not received the same keyboard acceptance as the Radix Dialog composition. Prefer Dialog for new work pending manual review.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#F8FAFC",
+        "#232D42"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-2bb9e037b692",
+    "name": "MultiSelectCombobox",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/MultiSelectCombobox.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "082d70c7076ed19fd147b692238dbbfbec263a325340e359baefffe4ef878c62",
+      "exports": [
+        {
+          "name": "MultiSelectOption",
+          "line": 9,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "MultiSelectComboboxProps",
+          "line": 14,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "MultiSelectCombobox",
+          "line": 30,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/MultiSelectCombobox.tsx",
+    "documentation": "docs/components/MultiSelectCombobox.md",
+    "catalogue": "/#component-MultiSelectCombobox",
+    "exports": [
+      {
+        "name": "MultiSelectOption",
+        "line": 9,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "MultiSelectComboboxProps",
+        "line": 14,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "MultiSelectCombobox",
+        "line": 30,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Caller supplies options and selected values. Do not use labels as IDs. Chip overflow, keyboard deletion and full assistive-technology acceptance need additional review.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#F8FAFC",
+        "#64748B",
+        "#FF4F00",
+        "#232D42",
+        "#94A3B8",
+        "#171E2E",
+        "#283248"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-1bf9739f7e3c",
+    "name": "NativeSelect",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/NativeSelect.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "349c0ac709de6112b55188123d2462a356a080071107ec21acd05f2418f77fb4",
+      "exports": [
+        {
+          "name": "NativeSelect",
+          "line": 2,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/NativeSelect.tsx",
+    "documentation": "docs/components/NativeSelect.md",
+    "catalogue": "/#component-NativeSelect",
+    "exports": [
+      {
+        "name": "NativeSelect",
+        "line": 2,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Prefer native selection where platform keyboard/validation semantics suffice. Provide an accessible label and real option values. Native popup rendering differs by OS.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#171E2E",
+        "#F8FAFC",
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-ccb37e893d2e",
+    "name": "NetworkStatusIndicator",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/NetworkStatusIndicator.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "cc98f71d29a1b97c03c9d31e9d400b0fd68fa0164c5881e4fe5b9bd466f2387e",
+      "exports": [
+        {
+          "name": "NetworkStatusIndicator",
+          "line": 33,
+          "kind": "FunctionDeclaration"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/NetworkStatusIndicator.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "NetworkStatusIndicator",
+        "line": 33,
+        "kind": "FunctionDeclaration"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-36ac0762fb48",
+    "name": "NvutoConfirmModal",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/NvutoConfirmModal.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "6c22b0a8964b43e214d4c537c93f2bbbf156a3108d9eee69e804bfca16d54ac7",
+      "exports": [
+        {
+          "name": "ConfirmModalProps",
+          "line": 4,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "NvutoConfirmModal",
+          "line": 15,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/NvutoConfirmModal.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "ConfirmModalProps",
+        "line": 4,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "NvutoConfirmModal",
+        "line": 15,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-30d8fd44490a",
+    "name": "NvutoPromptModal",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/NvutoPromptModal.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "6952d43d7091285ab3dafa10aced0e052c715ae84f21f15bf639bc522aeb0b53",
+      "exports": [
+        {
+          "name": "PromptModalProps",
+          "line": 4,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "NvutoPromptModal",
+          "line": 20,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/NvutoPromptModal.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "PromptModalProps",
+        "line": 4,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "NvutoPromptModal",
+        "line": 20,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-51f0b6852ac8",
+    "name": "PageHeader",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/PageHeader.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "9752e7c044a729810fa2f596ac9c9f5c16d7749a240e89837a5430bf53292369",
+      "exports": [
+        {
+          "name": "PageHeaderProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "PageHeader",
+          "line": 12,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/PageHeader.tsx",
+    "documentation": "docs/components/PageHeader.md",
+    "catalogue": "/#component-PageHeader",
+    "exports": [
+      {
+        "name": "PageHeaderProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "PageHeader",
+        "line": 12,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#232D42"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-2bf4cdc62f34",
+    "name": "PasswordStrengthInput",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/PasswordStrengthInput.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "9200330f29d9ba0118487441bdb38b10b11772e504c28d63aecd6d52dc67f6cd",
+      "exports": [
+        {
+          "name": "PasswordStrengthInputProps",
+          "line": 4,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "PasswordStrengthInput",
+          "line": 13,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "documented only",
+    "destination": null,
+    "documentation": "docs/components/PasswordStrengthInput.md",
+    "catalogue": null,
+    "exports": [
+      {
+        "name": "PasswordStrengthInputProps",
+        "line": 4,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "PasswordStrengthInput",
+        "line": 13,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "not applicable to portable core",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content."
+  },
+  {
+    "id": "ui-dd6040dd1a5c",
+    "name": "ProgressBar",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/ProgressBar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "1f6a43b57c85e81e339f51326d0662e8fef7a6dc02dc3bbba2ddd7c45543466a",
+      "exports": [
+        {
+          "name": "ProgressBarProps",
+          "line": 1,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ProgressBar",
+          "line": 6,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/ProgressBar.tsx",
+    "documentation": "docs/components/ProgressBar.md",
+    "catalogue": "/#component-ProgressBar",
+    "exports": [
+      {
+        "name": "ProgressBarProps",
+        "line": 1,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ProgressBar",
+        "line": 6,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#FF4F00",
+        "#171E2E"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-83ab913442dd",
+    "name": "Radio",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/Radio.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "3462da3f7f3f210833af4fce63ac6ee14ff0ea5e35452e41fe2a111163424ae7",
+      "exports": [
+        {
+          "name": "RadioProps",
+          "line": 1,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Radio",
+          "line": 5,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/Radio.tsx",
+    "documentation": "docs/components/Radio.md",
+    "catalogue": "/#component-Radio",
+    "exports": [
+      {
+        "name": "RadioProps",
+        "line": 1,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Radio",
+        "line": 5,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#F8FAFC",
+        "#232D42",
+        "#111625",
+        "#111184",
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-921d1efc23ba",
+    "name": "SearchableCombobox",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/SearchableCombobox.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d1416d7c64b05bb6dcef46b5187ff9dc12d55240e7e0f85b310b349264243038",
+      "exports": [
+        {
+          "name": "ComboboxOption",
+          "line": 14,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "SearchableComboboxProps",
+          "line": 20,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "SearchableCombobox",
+          "line": 36,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/SearchableCombobox.tsx",
+    "documentation": "docs/components/SearchableCombobox.md",
+    "catalogue": "/#component-SearchableCombobox",
+    "exports": [
+      {
+        "name": "ComboboxOption",
+        "line": 14,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "SearchableComboboxProps",
+        "line": 20,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "SearchableCombobox",
+        "line": 36,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Caller supplies options, value and change handler. Large remote result sets require a host adapter; no backend is included. Full keyboard, virtualized list and screen-reader acceptance remain open.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#F3F4F6",
+        "#171E2E",
+        "#00D1B2",
+        "#F8FAFC",
+        "#232D42",
+        "#94A3B8",
+        "#111625",
+        "#0B0F19",
+        "#111184",
+        "#FF4F00",
+        "#BE123C"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-cf882c8bc5eb",
+    "name": "StatusBadge",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/StatusBadge.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d3ee1785fa9c14487179fba8025f69bcd6192bc6b651cea5aa01f15854cbb7f5",
+      "exports": [
+        {
+          "name": "StatusCategory",
+          "line": 3,
+          "kind": "TypeAliasDeclaration"
+        },
+        {
+          "name": "StatusBadgeProps",
+          "line": 5,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "StatusBadge",
+          "line": 58,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/StatusBadge.tsx",
+    "documentation": "docs/components/StatusBadge.md",
+    "catalogue": "/#component-StatusBadge",
+    "exports": [
+      {
+        "name": "StatusCategory",
+        "line": 3,
+        "kind": "TypeAliasDeclaration"
+      },
+      {
+        "name": "StatusBadgeProps",
+        "line": 5,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "StatusBadge",
+        "line": 58,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Presentation only. variant is explicit; status text is not interpreted as business policy. Use text labels as well as color.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-4343f506dd99",
+    "name": "Toast",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/Toast.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "0e2e04c2c7742c1660299eb3fdbab05e9e590e4b6bf9de61c4d748968fb376cd",
+      "exports": [
+        {
+          "name": "ToastProps",
+          "line": 9,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Toast",
+          "line": 17,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/Toast.tsx",
+    "documentation": "docs/components/Toast.md",
+    "catalogue": "/#component-Toast",
+    "exports": [
+      {
+        "name": "ToastProps",
+        "line": 9,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Toast",
+        "line": 17,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#111625",
+        "#F8FAFC",
+        "#94A3B8"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-5f0d2630f41f",
+    "name": "ToggleSwitch",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/ToggleSwitch.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "6ada09d73a47f2ce0e06b4399e4e6cdbc6a445912cbeed148b0e088236455cc7",
+      "exports": [
+        {
+          "name": "ToggleSwitchProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "ToggleSwitch",
+          "line": 11,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/ToggleSwitch.tsx",
+    "documentation": "docs/components/ToggleSwitch.md",
+    "catalogue": "/#component-ToggleSwitch",
+    "exports": [
+      {
+        "name": "ToggleSwitchProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "ToggleSwitch",
+        "line": 11,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Use a visible label. Space on native button activates the switch. Controlled checked/onChange are owned by caller; disabled prevents callback.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#F8FAFC",
+        "#FF4F00",
+        "#e04500",
+        "#232D42",
+        "#2d3850"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-38bdf270378f",
+    "name": "Typography",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/Typography.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "56acf80166381f8ccdd622cbcb7dabc1dafed08ea6011a49f1800ee1377faca5",
+      "exports": [
+        {
+          "name": "PageTitleProps",
+          "line": 1,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "PageTitle",
+          "line": 5,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "PageSubtitleProps",
+          "line": 16,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "PageSubtitle",
+          "line": 20,
+          "kind": "FirstStatement"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/Typography.tsx",
+    "documentation": "docs/components/Typography.md",
+    "catalogue": "/#component-Typography",
+    "exports": [
+      {
+        "name": "PageTitleProps",
+        "line": 1,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "PageTitle",
+        "line": 5,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "PageSubtitleProps",
+        "line": 16,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "PageSubtitle",
+        "line": 20,
+        "kind": "FirstStatement"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source typography classes preserve Poppins weight/line-height hierarchy. Choose semantic heading levels separately from visual style. Long copy must wrap; do not infer global localization support.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-6d23bca853c8",
+    "name": "accordion",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/accordion.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "7e4b80cea43b93e7ef752c85d5497d11221596270410369fc29669026b96fb90",
+      "exports": [
+        {
+          "name": "Accordion",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AccordionItem",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AccordionTrigger",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AccordionContent",
+          "line": 64,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/accordion.tsx",
+    "documentation": "docs/components/accordion.md",
+    "catalogue": "/#component-accordion",
+    "exports": [
+      {
+        "name": "Accordion",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AccordionItem",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AccordionTrigger",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AccordionContent",
+        "line": 64,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-871b6a141985",
+    "name": "alert-dialog",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/alert-dialog.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "16f0bf95de446a8579cba6e75557fd83eb4aa0dbbc77ee936fbb59451e9390e9",
+      "exports": [
+        {
+          "name": "AlertDialog",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogPortal",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogOverlay",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogTrigger",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogContent",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogHeader",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogFooter",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogTitle",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogDescription",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogAction",
+          "line": 143,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDialogCancel",
+          "line": 143,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/alert-dialog.tsx",
+    "documentation": "docs/components/alert-dialog.md",
+    "catalogue": "/#component-alert-dialog",
+    "exports": [
+      {
+        "name": "AlertDialog",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogPortal",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogOverlay",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogTrigger",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogContent",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogHeader",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogFooter",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogTitle",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogDescription",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogAction",
+        "line": 143,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDialogCancel",
+        "line": 143,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-c308be38937e",
+    "name": "alert",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/alert.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "19835c5f03b78e8915b5e8900a0681ddfb83e3bcc0c9930e62f31c01e4dfb129",
+      "exports": [
+        {
+          "name": "Alert",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertTitle",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AlertDescription",
+          "line": 64,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/alert.tsx",
+    "documentation": "docs/components/alert.md",
+    "catalogue": "/#component-alert",
+    "exports": [
+      {
+        "name": "Alert",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertTitle",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AlertDescription",
+        "line": 64,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [
+        "--spacing"
+      ],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-cb0dcb9dbd9a",
+    "name": "aspect-ratio",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/aspect-ratio.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "7706745e217bebbc2d7bdf6697e9c6d484061146ae771755c9b6f240762c7217",
+      "exports": [
+        {
+          "name": "AspectRatio",
+          "line": 9,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/aspect-ratio.tsx",
+    "documentation": "docs/components/aspect-ratio.md",
+    "catalogue": "/#component-aspect-ratio",
+    "exports": [
+      {
+        "name": "AspectRatio",
+        "line": 9,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-9fd58f01f39d",
+    "name": "avatar",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/avatar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "7f220f1bae28e2f7d61cdb488ad991596b4d636be1f55289f5a6011c562c95d5",
+      "exports": [
+        {
+          "name": "NvutoAvatarProps",
+          "line": 11,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Avatar",
+          "line": 104,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AvatarImage",
+          "line": 104,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "AvatarFallback",
+          "line": 104,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/avatar.tsx",
+    "documentation": "docs/components/avatar.md",
+    "catalogue": "/#component-avatar",
+    "exports": [
+      {
+        "name": "NvutoAvatarProps",
+        "line": 11,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Avatar",
+        "line": 104,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AvatarImage",
+        "line": 104,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "AvatarFallback",
+        "line": 104,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#111184",
+        "#F8FAFC",
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-76ae01aac4ac",
+    "name": "badge",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/badge.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "b46a43969881a383d91a8de5a888ac7cdacc4539cabdcbe2d89a8927b5df8ea1",
+      "exports": [
+        {
+          "name": "BadgeProps",
+          "line": 30,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Badge",
+          "line": 53,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "badgeVariants",
+          "line": 53,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/badge.tsx",
+    "documentation": "docs/components/badge.md",
+    "catalogue": "/#component-badge",
+    "exports": [
+      {
+        "name": "BadgeProps",
+        "line": 30,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Badge",
+        "line": 53,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "badgeVariants",
+        "line": 53,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#94A3B8",
+        "#171E2E"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-a5da740564b1",
+    "name": "breadcrumb",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/breadcrumb.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "829a1c7b2edb19c21b33a947a530f0890fbcc2aef931e264d87e3894093f1f4d",
+      "exports": [
+        {
+          "name": "Breadcrumb",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbList",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbItem",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbLink",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbPage",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbSeparator",
+          "line": 99,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "BreadcrumbEllipsis",
+          "line": 99,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/breadcrumb.tsx",
+    "documentation": "docs/components/breadcrumb.md",
+    "catalogue": "/#component-breadcrumb",
+    "exports": [
+      {
+        "name": "Breadcrumb",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbList",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbItem",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbLink",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbPage",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbSeparator",
+        "line": 99,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "BreadcrumbEllipsis",
+        "line": 99,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-6fb2baac3db7",
+    "name": "button",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/button.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "550dd90a6494ff4adcc5442dce1969ef7bc31e88d875ac6b755b2aaa9320a0cc",
+      "exports": [
+        {
+          "name": "ButtonProps",
+          "line": 34,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Button",
+          "line": 100,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "buttonVariants",
+          "line": 100,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/button.tsx",
+    "documentation": "docs/components/button.md",
+    "catalogue": "/#component-button",
+    "exports": [
+      {
+        "name": "ButtonProps",
+        "line": 34,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Button",
+        "line": 100,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "buttonVariants",
+        "line": 100,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Use primary for the main action; outline/ghost for supporting actions. Always label icon-only controls. White-on-orange small text has an unresolved source contrast defect; see normalization register. Disabled and loading links are guarded by extraction regression tests.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#FF4F00",
+        "#0B0F19",
+        "#e04500",
+        "#CC3F00",
+        "#232D42",
+        "#171E2E",
+        "#F8FAFC",
+        "#94A3B8",
+        "#BE123C",
+        "#9F1239"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-535010677754",
+    "name": "calendar",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/calendar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d2341d3ed935c8df355bf288fae11f0fffdcb57e9c0c7ab2085cfce09fa9e97c",
+      "exports": [
+        {
+          "name": "Calendar",
+          "line": 73,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/calendar.tsx",
+    "documentation": "docs/components/calendar.md",
+    "catalogue": "/#component-calendar",
+    "exports": [
+      {
+        "name": "Calendar",
+        "line": 73,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-7cbcaa693554",
+    "name": "card",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/card.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "59f5870065323599a97bb95651ac3a52307d5c193831f691978504088d6e427d",
+      "exports": [
+        {
+          "name": "CardProps",
+          "line": 2,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CardHeaderProps",
+          "line": 40,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CardContentProps",
+          "line": 101,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CardFooterProps",
+          "line": 121,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Surface",
+          "line": 145,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceHeader",
+          "line": 148,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceTitle",
+          "line": 149,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceDescription",
+          "line": 150,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceAction",
+          "line": 151,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceContent",
+          "line": 152,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "SurfaceFooter",
+          "line": 153,
+          "kind": "FirstStatement"
+        },
+        {
+          "name": "Card",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardHeader",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardFooter",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardTitle",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardAction",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardDescription",
+          "line": 154,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CardContent",
+          "line": 154,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/card.tsx",
+    "documentation": "docs/components/card.md",
+    "catalogue": "/#component-card",
+    "exports": [
+      {
+        "name": "CardProps",
+        "line": 2,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CardHeaderProps",
+        "line": 40,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CardContentProps",
+        "line": 101,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CardFooterProps",
+        "line": 121,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Surface",
+        "line": 145,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceHeader",
+        "line": 148,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceTitle",
+        "line": 149,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceDescription",
+        "line": 150,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceAction",
+        "line": 151,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceContent",
+        "line": 152,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "SurfaceFooter",
+        "line": 153,
+        "kind": "FirstStatement"
+      },
+      {
+        "name": "Card",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardHeader",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardFooter",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardTitle",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardAction",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardDescription",
+        "line": 154,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CardContent",
+        "line": 154,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#F8FAFC",
+        "#232D42",
+        "#171E2E",
+        "#94A3B8"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-dce05db11adc",
+    "name": "carousel",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/carousel.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "c395ea1187056feedbc4ac17494446b07893ea72a667ec73ceade68064726fe1",
+      "exports": [
+        {
+          "name": "CarouselApi",
+          "line": 232,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "Carousel",
+          "line": 232,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CarouselContent",
+          "line": 232,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CarouselItem",
+          "line": 232,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CarouselPrevious",
+          "line": 232,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CarouselNext",
+          "line": 232,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/carousel.tsx",
+    "documentation": "docs/components/carousel.md",
+    "catalogue": "/#component-carousel",
+    "exports": [
+      {
+        "name": "CarouselApi",
+        "line": 232,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "Carousel",
+        "line": 232,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CarouselContent",
+        "line": 232,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CarouselItem",
+        "line": 232,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CarouselPrevious",
+        "line": 232,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CarouselNext",
+        "line": 232,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-f1650a8a3ae7",
+    "name": "chart",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/chart.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "6938e76e0f5065f5bc6692eff3c3a7b2d2d0f470cc55e3bb0dd4f4c809e138cb",
+      "exports": [
+        {
+          "name": "ChartConfig",
+          "line": 9,
+          "kind": "TypeAliasDeclaration"
+        },
+        {
+          "name": "ChartContainer",
+          "line": 344,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ChartTooltip",
+          "line": 344,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ChartTooltipContent",
+          "line": 344,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ChartLegend",
+          "line": 344,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ChartLegendContent",
+          "line": 344,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ChartStyle",
+          "line": 344,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/chart.tsx",
+    "documentation": "docs/components/chart.md",
+    "catalogue": "/#component-chart",
+    "exports": [
+      {
+        "name": "ChartConfig",
+        "line": 9,
+        "kind": "TypeAliasDeclaration"
+      },
+      {
+        "name": "ChartContainer",
+        "line": 344,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ChartTooltip",
+        "line": 344,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ChartTooltipContent",
+        "line": 344,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ChartLegend",
+        "line": 344,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ChartLegendContent",
+        "line": 344,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ChartStyle",
+        "line": 344,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Recharts wrapper and tooltip/legend styles are extracted. Host supplies series and accessible summaries. Canvas/SVG chart colors alone do not establish accessible analysis; full chart keyboard/AT acceptance is open.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#ccc",
+        "#fff"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-bf3c5e1f1468",
+    "name": "checkbox",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/checkbox.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "45c4a3914fb710195864b6ff32793cda0100a6207644dd48852c43b5622810b2",
+      "exports": [
+        {
+          "name": "CheckboxProps",
+          "line": 5,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Checkbox",
+          "line": 94,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/checkbox.tsx",
+    "documentation": "docs/components/checkbox.md",
+    "catalogue": "/#component-checkbox",
+    "exports": [
+      {
+        "name": "CheckboxProps",
+        "line": 5,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Checkbox",
+        "line": 94,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#111184",
+        "#FF4F00",
+        "#00D1B2",
+        "#F8FAFC",
+        "#BE123C"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-799ea872e68a",
+    "name": "collapsible",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/collapsible.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "b763764ebced561c04e2e6ada9dc53375bb90b9f4bcb91b0f3d5de7381aaf0cb",
+      "exports": [
+        {
+          "name": "Collapsible",
+          "line": 31,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CollapsibleTrigger",
+          "line": 31,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CollapsibleContent",
+          "line": 31,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/collapsible.tsx",
+    "documentation": "docs/components/collapsible.md",
+    "catalogue": "/#component-collapsible",
+    "exports": [
+      {
+        "name": "Collapsible",
+        "line": 31,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CollapsibleTrigger",
+        "line": 31,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CollapsibleContent",
+        "line": 31,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-813adc99940d",
+    "name": "command",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/command.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "3b5658d48cf9504f2885118c4c26224682d94c96d10ea1a7f7dbc9b1bc288956",
+      "exports": [
+        {
+          "name": "Command",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandDialog",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandInput",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandList",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandEmpty",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandGroup",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandItem",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandShortcut",
+          "line": 165,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CommandSeparator",
+          "line": 165,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/command.tsx",
+    "documentation": "docs/components/command.md",
+    "catalogue": "/#component-command",
+    "exports": [
+      {
+        "name": "Command",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandDialog",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandInput",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandList",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandEmpty",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandGroup",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandItem",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandShortcut",
+        "line": 165,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CommandSeparator",
+        "line": 165,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-d3d81179913c",
+    "name": "context-menu",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/context-menu.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "0ce06cc6a02a79fcfa3294c39dffe0ed04d0f3acb3b1c717a5837c25522b279f",
+      "exports": [
+        {
+          "name": "ContextMenu",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuTrigger",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuContent",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuItem",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuCheckboxItem",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuRadioItem",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuLabel",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuSeparator",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuShortcut",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuGroup",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuPortal",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuSub",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuSubContent",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuSubTrigger",
+          "line": 234,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ContextMenuRadioGroup",
+          "line": 234,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/context-menu.tsx",
+    "documentation": "docs/components/context-menu.md",
+    "catalogue": "/#component-context-menu",
+    "exports": [
+      {
+        "name": "ContextMenu",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuTrigger",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuContent",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuItem",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuCheckboxItem",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuRadioItem",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuLabel",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuSeparator",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuShortcut",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuGroup",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuPortal",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuSub",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuSubContent",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuSubTrigger",
+        "line": 234,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ContextMenuRadioGroup",
+        "line": 234,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-da08ed8b4d1e",
+    "name": "dialog",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/dialog.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "bd12089890a4f7af156b3444bfc4f1fd32c68e95de2dcd9b00b67fca80219211",
+      "exports": [
+        {
+          "name": "Dialog",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogClose",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogContent",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogDescription",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogFooter",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogHeader",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogOverlay",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogPortal",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogTitle",
+          "line": 123,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DialogTrigger",
+          "line": 123,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/dialog.tsx",
+    "documentation": "docs/components/dialog.md",
+    "catalogue": "/#component-dialog",
+    "exports": [
+      {
+        "name": "Dialog",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogClose",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogContent",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogDescription",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogFooter",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogHeader",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogOverlay",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogPortal",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogTitle",
+        "line": 123,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DialogTrigger",
+        "line": 123,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Compose Trigger, Content, Title and Description; all portals require NvutoProvider. Radix owns focus containment, Escape and focus return. Supply a real title/description and test nested overlays.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-92427b9e3f9e",
+    "name": "dropdown-menu",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/dropdown-menu.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d34d072bf54c555432d5bf5168a62944ed20eb31accb0f41479e67daad6a80c6",
+      "exports": [
+        {
+          "name": "DropdownItem",
+          "line": 7,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CustomDropdownMenuProps",
+          "line": 16,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "DropdownMenu",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuPortal",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuTrigger",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuContent",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuGroup",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuLabel",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuItem",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuCheckboxItem",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuRadioGroup",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuRadioItem",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuSeparator",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuShortcut",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuSub",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuSubTrigger",
+          "line": 384,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "DropdownMenuSubContent",
+          "line": 384,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/dropdown-menu.tsx",
+    "documentation": "docs/components/dropdown-menu.md",
+    "catalogue": "/#component-dropdown-menu",
+    "exports": [
+      {
+        "name": "DropdownItem",
+        "line": 7,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CustomDropdownMenuProps",
+        "line": 16,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "DropdownMenu",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuPortal",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuTrigger",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuContent",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuGroup",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuLabel",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuItem",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuCheckboxItem",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuRadioGroup",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuRadioItem",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuSeparator",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuShortcut",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuSub",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuSubTrigger",
+        "line": 384,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "DropdownMenuSubContent",
+        "line": 384,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Prefer compositional Radix menu exports. The legacy custom items API remains a compatibility candidate and needs complete keyboard acceptance.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#111625",
+        "#232D42",
+        "#0B0F19",
+        "#BE123C",
+        "#F8FAFC",
+        "#111184",
+        "#171E2E",
+        "#FF4F00"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-83a13bb808f3",
+    "name": "form",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/form.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "005f838fd9cc33acdefb95bced31cdd365d0a689ab3421b3bfb6a8e383430874",
+      "exports": [
+        {
+          "name": "CustomFormProps",
+          "line": 17,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Form",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "CustomForm",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "useFormField",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormField",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormItem",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormLabel",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormControl",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormDescription",
+          "line": 176,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "FormMessage",
+          "line": 176,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/form.tsx",
+    "documentation": "docs/components/form.md",
+    "catalogue": "/#component-form",
+    "exports": [
+      {
+        "name": "CustomFormProps",
+        "line": 17,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Form",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "CustomForm",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "useFormField",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormField",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormItem",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormLabel",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormControl",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormDescription",
+        "line": 176,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "FormMessage",
+        "line": 176,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-06fdb1048a19",
+    "name": "hover-card",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/hover-card.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "6ec1ef98aef3898ef3f8eb35e52c10add150d76cd041132d2520fe3016ecfe60",
+      "exports": [
+        {
+          "name": "HoverCard",
+          "line": 42,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "HoverCardTrigger",
+          "line": 42,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "HoverCardContent",
+          "line": 42,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/hover-card.tsx",
+    "documentation": "docs/components/hover-card.md",
+    "catalogue": "/#component-hover-card",
+    "exports": [
+      {
+        "name": "HoverCard",
+        "line": 42,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "HoverCardTrigger",
+        "line": 42,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "HoverCardContent",
+        "line": 42,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-716e63ddfcae",
+    "name": "input-otp",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/input-otp.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "8da3b50eb70d833078a714141ea8d408b427a14bcd6260aecaa5f4448bc8fb97",
+      "exports": [
+        {
+          "name": "InputOTP",
+          "line": 75,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "InputOTPGroup",
+          "line": 75,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "InputOTPSlot",
+          "line": 75,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "InputOTPSeparator",
+          "line": 75,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/input-otp.tsx",
+    "documentation": "docs/components/input-otp.md",
+    "catalogue": "/#component-input-otp",
+    "exports": [
+      {
+        "name": "InputOTP",
+        "line": 75,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "InputOTPGroup",
+        "line": 75,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "InputOTPSlot",
+        "line": 75,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "InputOTPSeparator",
+        "line": 75,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-3d63648da4dd",
+    "name": "input",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/input.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "e52e1e6545c55162b9a5b74304ba485fd8e7fb678bde40b5ad62991d287fa2a1",
+      "exports": [
+        {
+          "name": "InputProps",
+          "line": 3,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Input",
+          "line": 160,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/input.tsx",
+    "documentation": "docs/components/input.md",
+    "catalogue": "/#component-input",
+    "exports": [
+      {
+        "name": "InputProps",
+        "line": 3,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Input",
+        "line": 160,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Use label, error and native input attributes. Errors are associated with aria-describedby; password toggle has a title. Native date popup depends on browser and user activation. Do not use this control to define password policy.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#94A3B8",
+        "#171E2E",
+        "#232D42",
+        "#00D1B2",
+        "#F8FAFC",
+        "#FF4F00",
+        "#BE123C"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-b950e82e8f00",
+    "name": "label",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/label.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "5b24eef06605c6914da76362a6533ab56071c8f5e4a5528e792225ee5be0cb14",
+      "exports": [
+        {
+          "name": "LabelProps",
+          "line": 3,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Label",
+          "line": 27,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/label.tsx",
+    "documentation": "docs/components/label.md",
+    "catalogue": "/#component-label",
+    "exports": [
+      {
+        "name": "LabelProps",
+        "line": 3,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Label",
+        "line": 27,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-115fd62ca79f",
+    "name": "menubar",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/menubar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "1a9fc2f46a965bcedb1ea0f16f39a26b826c6bd20b63a0b053ff5d1587a7ff27",
+      "exports": [
+        {
+          "name": "Menubar",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarPortal",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarMenu",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarTrigger",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarContent",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarGroup",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarSeparator",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarLabel",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarItem",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarShortcut",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarCheckboxItem",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarRadioGroup",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarRadioItem",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarSub",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarSubTrigger",
+          "line": 257,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "MenubarSubContent",
+          "line": 257,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/menubar.tsx",
+    "documentation": "docs/components/menubar.md",
+    "catalogue": "/#component-menubar",
+    "exports": [
+      {
+        "name": "Menubar",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarPortal",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarMenu",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarTrigger",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarContent",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarGroup",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarSeparator",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarLabel",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarItem",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarShortcut",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarCheckboxItem",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarRadioGroup",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarRadioItem",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarSub",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarSubTrigger",
+        "line": 257,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "MenubarSubContent",
+        "line": 257,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-b3ff4a17f240",
+    "name": "navigation-menu",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/navigation-menu.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d56d2e1b896920f79ccc71ca7f645035ee10b2f5b2a9ae0be935057d9c1df9ac",
+      "exports": [
+        {
+          "name": "NavigationMenu",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuList",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuItem",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuContent",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuTrigger",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuLink",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuIndicator",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "NavigationMenuViewport",
+          "line": 156,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "navigationMenuTriggerStyle",
+          "line": 156,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/navigation-menu.tsx",
+    "documentation": "docs/components/navigation-menu.md",
+    "catalogue": "/#component-navigation-menu",
+    "exports": [
+      {
+        "name": "NavigationMenu",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuList",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuItem",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuContent",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuTrigger",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuLink",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuIndicator",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "NavigationMenuViewport",
+        "line": 156,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "navigationMenuTriggerStyle",
+        "line": 156,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [
+        "--radix-navigation-menu-viewport-height",
+        "--radix-navigation-menu-viewport-width"
+      ],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-933bc6754965",
+    "name": "popover",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/popover.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "f14e16bebcfb1b605f6336d52153e43b76456c419930faea216d0ce2e3b1d3b7",
+      "exports": [
+        {
+          "name": "Popover",
+          "line": 46,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "PopoverTrigger",
+          "line": 46,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "PopoverContent",
+          "line": 46,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "PopoverAnchor",
+          "line": 46,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/popover.tsx",
+    "documentation": "docs/components/popover.md",
+    "catalogue": "/#component-popover",
+    "exports": [
+      {
+        "name": "Popover",
+        "line": 46,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "PopoverTrigger",
+        "line": 46,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "PopoverContent",
+        "line": 46,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "PopoverAnchor",
+        "line": 46,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-e24e0c01890c",
+    "name": "progress",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/progress.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "956cf4b485bcf57684caac10df2aa2a72387d0736d8f4cd1315c49ebd2da4615",
+      "exports": [
+        {
+          "name": "Progress",
+          "line": 29,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/progress.tsx",
+    "documentation": "docs/components/progress.md",
+    "catalogue": "/#component-progress",
+    "exports": [
+      {
+        "name": "Progress",
+        "line": 29,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-c5e6288117eb",
+    "name": "radio-group",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/radio-group.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d6af25b2f07441abbd887966c8a8087d953dcba69ebbc35aa49b3eb02104408c",
+      "exports": [
+        {
+          "name": "RadioGroup",
+          "line": 43,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "RadioGroupItem",
+          "line": 43,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/radio-group.tsx",
+    "documentation": "docs/components/radio-group.md",
+    "catalogue": "/#component-radio-group",
+    "exports": [
+      {
+        "name": "RadioGroup",
+        "line": 43,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "RadioGroupItem",
+        "line": 43,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-1dde2c359b00",
+    "name": "resizable",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/resizable.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "baa8af52fba7674ea0c922f531dae6a2b63a0eddbfa8a4c309b9c3d4a4e37a94",
+      "exports": [
+        {
+          "name": "ResizablePanelGroup",
+          "line": 54,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ResizablePanel",
+          "line": 54,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ResizableHandle",
+          "line": 54,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/resizable.tsx",
+    "documentation": "docs/components/resizable.md",
+    "catalogue": "/#component-resizable",
+    "exports": [
+      {
+        "name": "ResizablePanelGroup",
+        "line": 54,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ResizablePanel",
+        "line": 54,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ResizableHandle",
+        "line": 54,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-0d3387be4927",
+    "name": "scroll-area",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/scroll-area.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "4828a7b9cd9f9dcf9cf449c397d66a0ec84b7b40aec84072e0e14a55458cfb1c",
+      "exports": [
+        {
+          "name": "ScrollArea",
+          "line": 56,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ScrollBar",
+          "line": 56,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/scroll-area.tsx",
+    "documentation": "docs/components/scroll-area.md",
+    "catalogue": "/#component-scroll-area",
+    "exports": [
+      {
+        "name": "ScrollArea",
+        "line": 56,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ScrollBar",
+        "line": 56,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-70504a17f3f6",
+    "name": "select",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/select.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "eb19456e32fe9b2a257b04a4212f841e7b79470d0142e6b587901f6b76733696",
+      "exports": [
+        {
+          "name": "SelectOption",
+          "line": 10,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "CustomSelectProps",
+          "line": 15,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Select",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectContent",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectGroup",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectItem",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectLabel",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectScrollDownButton",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectScrollUpButton",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectSeparator",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectTrigger",
+          "line": 516,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SelectValue",
+          "line": 516,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/select.tsx",
+    "documentation": "docs/components/select.md",
+    "catalogue": "/#component-select",
+    "exports": [
+      {
+        "name": "SelectOption",
+        "line": 10,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "CustomSelectProps",
+        "line": 15,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Select",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectContent",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectGroup",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectItem",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectLabel",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectScrollDownButton",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectScrollUpButton",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectSeparator",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectTrigger",
+        "line": 516,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SelectValue",
+        "line": 516,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Custom high-level Select accepts caller options only. Radix compositional exports are also available. Legacy custom popup keyboard coverage is incomplete; use NativeSelect for acceptance-critical forms until reviewed.",
+    "styleBindings": {
+      "directCSSVariables": [
+        "--radix-select-trigger-width",
+        "--radix-select-trigger-height"
+      ],
+      "sourceLiteralColors": [
+        "#F3F4F6",
+        "#171E2E",
+        "#F8FAFC",
+        "#232D42",
+        "#FF4F00",
+        "#94A3B8",
+        "#111625",
+        "#BE123C"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-ff62643d117b",
+    "name": "separator",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/separator.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "54cc34fc3ef7e445948c5bccf7307efbb2c8f9e63db0fc68dd3fa8ee54dc9812",
+      "exports": [
+        {
+          "name": "Separator",
+          "line": 26,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/separator.tsx",
+    "documentation": "docs/components/separator.md",
+    "catalogue": "/#component-separator",
+    "exports": [
+      {
+        "name": "Separator",
+        "line": 26,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-e5f72ca51db6",
+    "name": "sheet",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/sheet.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "870e58c4354a1c21494bbbbffdbaba34848ed7eb11d1dbc1be1abf6656d903b9",
+      "exports": [
+        {
+          "name": "Sheet",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetTrigger",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetClose",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetContent",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetHeader",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetFooter",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetTitle",
+          "line": 129,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "SheetDescription",
+          "line": 129,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/sheet.tsx",
+    "documentation": "docs/components/sheet.md",
+    "catalogue": "/#component-sheet",
+    "exports": [
+      {
+        "name": "Sheet",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetTrigger",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetClose",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetContent",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetHeader",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetFooter",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetTitle",
+        "line": 129,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "SheetDescription",
+        "line": 129,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-d24bd4355a8e",
+    "name": "skeleton",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/skeleton.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "7fd5d7f3ea479c3c1ae7be79bdbaf84c87647333768f70d396cd84580535d485",
+      "exports": [
+        {
+          "name": "Skeleton",
+          "line": 11,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/skeleton.tsx",
+    "documentation": "docs/components/skeleton.md",
+    "catalogue": "/#component-skeleton",
+    "exports": [
+      {
+        "name": "Skeleton",
+        "line": 11,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-82e4d17b665b",
+    "name": "slider",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/slider.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "19dd9d8b758f41fa61967d1a0540ea34ed989727258d23eef9a50cdebcab805b",
+      "exports": [
+        {
+          "name": "Slider",
+          "line": 61,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/slider.tsx",
+    "documentation": "docs/components/slider.md",
+    "catalogue": "/#component-slider",
+    "exports": [
+      {
+        "name": "Slider",
+        "line": 61,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-4ca8b3c40085",
+    "name": "switch",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/switch.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d4c744131c6161300510909aafe2c2cb6d819f2c7a8c2aeb75d4317004c7eff7",
+      "exports": [
+        {
+          "name": "Switch",
+          "line": 29,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/switch.tsx",
+    "documentation": "docs/components/switch.md",
+    "catalogue": "/#component-switch",
+    "exports": [
+      {
+        "name": "Switch",
+        "line": 29,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-c8574000b27c",
+    "name": "tabs",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/tabs.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "442937bcc56b68a5c92d1f76688dea6e33c925722448738d9367b971b00e7864",
+      "exports": [
+        {
+          "name": "Tabs",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TabsList",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TabsTrigger",
+          "line": 64,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TabsContent",
+          "line": 64,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/tabs.tsx",
+    "documentation": "docs/components/tabs.md",
+    "catalogue": "/#component-tabs",
+    "exports": [
+      {
+        "name": "Tabs",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TabsList",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TabsTrigger",
+        "line": 64,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TabsContent",
+        "line": 64,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-372dc2c5a473",
+    "name": "textarea",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/textarea.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "c16c3082f72b0b1fb566917f5df05002168f22345cacc68b09524286ffb430fe",
+      "exports": [
+        {
+          "name": "TextareaProps",
+          "line": 3,
+          "kind": "InterfaceDeclaration"
+        },
+        {
+          "name": "Textarea",
+          "line": 75,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/textarea.tsx",
+    "documentation": "docs/components/textarea.md",
+    "catalogue": "/#component-textarea",
+    "exports": [
+      {
+        "name": "TextareaProps",
+        "line": 3,
+        "kind": "InterfaceDeclaration"
+      },
+      {
+        "name": "Textarea",
+        "line": 75,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [
+        "#232D42",
+        "#94A3B8",
+        "#00D1B2",
+        "#171E2E",
+        "#F8FAFC",
+        "#BE123C"
+      ],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-8fe106f22306",
+    "name": "toggle-group",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/toggle-group.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "43e56c5487ed93a2e0d418dcf944a646c716b8c8c55d050fcda1d5cd1248cce6",
+      "exports": [
+        {
+          "name": "ToggleGroup",
+          "line": 71,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "ToggleGroupItem",
+          "line": 71,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/toggle-group.tsx",
+    "documentation": "docs/components/toggle-group.md",
+    "catalogue": "/#component-toggle-group",
+    "exports": [
+      {
+        "name": "ToggleGroup",
+        "line": 71,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "ToggleGroupItem",
+        "line": 71,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-3db8b760bb69",
+    "name": "toggle",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/toggle.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "31f91bca26bed6bc884e3dbebe095046d4cf925b9d7676094721ac287d0b2135",
+      "exports": [
+        {
+          "name": "Toggle",
+          "line": 45,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "toggleVariants",
+          "line": 45,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/toggle.tsx",
+    "documentation": "docs/components/toggle.md",
+    "catalogue": "/#component-toggle",
+    "exports": [
+      {
+        "name": "Toggle",
+        "line": 45,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "toggleVariants",
+        "line": 45,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-e8a626733efe",
+    "name": "tooltip",
+    "kind": "component family",
+    "source": {
+      "path": "src/app/components/ui/tooltip.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "9068b1c0807101804a45812c4c9e7cfeac54a2ddd52f2e43d714f6b44ce726c7",
+      "exports": [
+        {
+          "name": "Tooltip",
+          "line": 59,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TooltipTrigger",
+          "line": 59,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TooltipContent",
+          "line": 59,
+          "kind": "NamedExport"
+        },
+        {
+          "name": "TooltipProvider",
+          "line": 59,
+          "kind": "NamedExport"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/tooltip.tsx",
+    "documentation": "docs/components/tooltip.md",
+    "catalogue": "/#component-tooltip",
+    "exports": [
+      {
+        "name": "Tooltip",
+        "line": 59,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TooltipTrigger",
+        "line": 59,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TooltipContent",
+        "line": 59,
+        "kind": "NamedExport"
+      },
+      {
+        "name": "TooltipProvider",
+        "line": 59,
+        "kind": "NamedExport"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-b8eda2761569",
+    "name": "use-mobile",
+    "kind": "utility",
+    "source": {
+      "path": "src/app/components/ui/use-mobile.ts",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "738d8e4520edeca7caa2ca56a4923839e30be14a00fc32b5a770f5d5b451a63e",
+      "exports": [
+        {
+          "name": "useIsMobile",
+          "line": 3,
+          "kind": "FunctionDeclaration"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/use-mobile.ts",
+    "documentation": "docs/components/use-mobile.md",
+    "catalogue": "/#component-use-mobile",
+    "exports": [
+      {
+        "name": "useIsMobile",
+        "line": 3,
+        "kind": "FunctionDeclaration"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "ui-1a591d68d27d",
+    "name": "utils",
+    "kind": "utility",
+    "source": {
+      "path": "src/app/components/ui/utils.ts",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+      "exports": [
+        {
+          "name": "cn",
+          "line": 2,
+          "kind": "FunctionDeclaration"
+        }
+      ]
+    },
+    "evidence": "OBSERVED",
+    "adoption": "candidate",
+    "inspection": "source AST enumerated and shared implementation reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/utils.ts",
+    "documentation": "docs/components/utils.md",
+    "catalogue": "/#component-utils",
+    "exports": [
+      {
+        "name": "cn",
+        "line": 2,
+        "kind": "FunctionDeclaration"
+      }
+    ],
+    "validation": "build/type and family acceptance tracked in audit/final-verification.json",
+    "limitations": "Source-derived primitive/composition. Build/type coverage is separate from runtime interaction acceptance; see per-family coverage. Host must provide meaningful labels and domain content.",
+    "styleBindings": {
+      "directCSSVariables": [],
+      "sourceLiteralColors": [],
+      "note": "Literal values are preserved source decisions, not a claim that components already consume every matching shared token. See normalization register for staged alias adoption."
+    }
+  },
+  {
+    "id": "layout-component-PrimarySidebar",
+    "name": "PrimarySidebar",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/PrimarySidebar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "70d37efd25d7c8489a8a11c4e216af0e25e93251baeefb1da22e5a949cef9ce4"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/PrimarySidebar.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "70d37efd25d7c8489a8a11c4e216af0e25e93251baeefb1da22e5a949cef9ce4"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-SecondarySidebar",
+    "name": "SecondarySidebar",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/SecondarySidebar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "43e6ddad721c4f4a984e0172ad6f7fdcf1759b839572ebb60acc7d027b9ce6a0"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/SecondarySidebar.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "43e6ddad721c4f4a984e0172ad6f7fdcf1759b839572ebb60acc7d027b9ce6a0"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-RoleSidebarNav",
+    "name": "RoleSidebarNav",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/EmployeeSidebar.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "188ccba3bade04bebb538070996c93dbabd07aa9c1ebf5c3830d14ade0f71abc"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/EmployeeSidebar.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "188ccba3bade04bebb538070996c93dbabd07aa9c1ebf5c3830d14ade0f71abc"
+      },
+      {
+        "path": "src/app/components/layout/ManagerSidebar.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "d4221224f174a8ea2b4c0eedf7190b1b73900d468cbd0c14dcd4967be20a3df3"
+      },
+      {
+        "path": "src/app/components/layout/RoleSidebarNav.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "c43eeb5268ad4c0019af84dc4349b6f151766fe5c9790adee15bc5cef85e3599"
+      },
+      {
+        "path": "src/app/components/layout/SidebarNavigation.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "31677a703d139e6409db09def1f8491dfc2ae9f04adda12a06e87a65c620f202"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-GlobalHeader",
+    "name": "GlobalHeader",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/GlobalHeader.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "25117e50bcaac5f49ad7e535d79224fe05d290d4a1a52141059bbf50576be185"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/GlobalHeader.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "25117e50bcaac5f49ad7e535d79224fe05d290d4a1a52141059bbf50576be185"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-WorkspaceLayout",
+    "name": "WorkspaceLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/AppLayout.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "e491b6e0a5a0e8d15fb36d25f61d96a2cd44301d398d1a37369a9ba8f8c840bc"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/AppLayout.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "e491b6e0a5a0e8d15fb36d25f61d96a2cd44301d398d1a37369a9ba8f8c840bc"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-SubNavTabs",
+    "name": "SubNavTabs",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "nvuto-superadmin-web/src/SubNavTabs.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "ca9bdb341bff97b633c9191e507908cf0dc662b4efb346d83dd9140c2e0f2b9c"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "nvuto-superadmin-web/src/SubNavTabs.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "ca9bdb341bff97b633c9191e507908cf0dc662b4efb346d83dd9140c2e0f2b9c"
+      },
+      {
+        "path": "src/app/components/layout/CalendarTabs.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "7cf594b941df8a93d7394d22d39d4464b8739fd6e47b31ae721a34904f56255c"
+      },
+      {
+        "path": "src/app/components/layout/PerformanceSubNavigation.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "7679361f26dcdd427ebcc7bc99ec2debf3a3db92b1e3ae694a64d91ed86dc859"
+      },
+      {
+        "path": "src/app/components/layout/SubNavTabs.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "b65dbb47db7dc93a3108f07f22f75e4f550c25c426c01fe7e7d2f38cf7c05d2f"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-SecondarySubNavTabs",
+    "name": "SecondarySubNavTabs",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/SecondarySubNavTabs.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "f671c5b2b9f2f0362572ea4801aacee8cb818b28187c0fa1c6794390974c1357"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/SecondarySubNavTabs.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "f671c5b2b9f2f0362572ea4801aacee8cb818b28187c0fa1c6794390974c1357"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-ModuleShell",
+    "name": "ModuleShell",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/RecruitmentShell.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": []
+  },
+  {
+    "id": "layout-component-RecruitmentShell",
+    "name": "RecruitmentShell",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/RecruitmentShell.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "a48b1be040c8b762b7ce8510edf1f221be253a50f37bceda928b21b857f6de87"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/RecruitmentShell.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "a48b1be040c8b762b7ce8510edf1f221be253a50f37bceda928b21b857f6de87"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-AuthLayout",
+    "name": "AuthLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "nvuto-superadmin-web/src/LoginPage.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "9b5c705dbf0342b3655088f4d51479a2e41dd30770da94c5350eaaef7b7d292c"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "nvuto-superadmin-web/src/LoginPage.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "9b5c705dbf0342b3655088f4d51479a2e41dd30770da94c5350eaaef7b7d292c"
+      },
+      {
+        "path": "src/app/components/layout/ForcePasswordReset.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "1060f19f29ec4ad6427791c415b25d453f5cb6ee64f35f471a16d8aa461b5696"
+      },
+      {
+        "path": "src/app/components/layout/ForgotPasswordPage.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "2a0284112fcc1b784f937cb4cf36cb8330b9efd4c8e08f308535c05390c84b18"
+      },
+      {
+        "path": "src/app/components/layout/LoginPage.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "8af934a8d56ebcbb8be2a90444f7318524391109acf29f055a4d4cc8a5fb39d5"
+      },
+      {
+        "path": "src/app/components/layout/ResetPasswordPage.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "640b178b9c4c8a76f8fdc9b98b853f0d71eb046b88c8877a411a71c5bee4145f"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-PublicPortalLayout",
+    "name": "PublicPortalLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/public/PublicCareerPortalPreview.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "9496e2a46e80fd9bea7549a0397ac0b31a4e45581f15a25419d1c933ad0a28d1"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/public/PublicCareerPortalPreview.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "9496e2a46e80fd9bea7549a0397ac0b31a4e45581f15a25419d1c933ad0a28d1"
+      },
+      {
+        "path": "src/app/components/public/PublicJobDetailView.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "f10d419f926c014d50fbef4546404a668ed099483971477d6bcaec627f5f3484"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-MarketingSection",
+    "name": "MarketingSection",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/modules/hr/components/MarketingSection.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "863d8140bbca9d2e697941460fd92d939ad4ca77c3d2cc0ff0dfb7dabceff3fa"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/modules/hr/components/MarketingSection.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "863d8140bbca9d2e697941460fd92d939ad4ca77c3d2cc0ff0dfb7dabceff3fa"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-DetailPageLayout",
+    "name": "DetailPageLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/EmployeeRecordManager.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "abbddd72e22484939c6c022cef98805ccbe0cad39a16b3dccd6cc81eaa760383"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/EmployeeRecordManager.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "abbddd72e22484939c6c022cef98805ccbe0cad39a16b3dccd6cc81eaa760383"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-DashboardLayout",
+    "name": "DashboardLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/CEODashboard.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "e6711539eca9bea944fb06c5814018ac0b46602d7bfeee07cf0055215ff5afae"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/CEODashboard.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "e6711539eca9bea944fb06c5814018ac0b46602d7bfeee07cf0055215ff5afae"
+      },
+      {
+        "path": "src/app/components/layout/EmployeeDashboard.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "4ed50eba73b268c3783fb442ecdf84c8c30a21cd5ad88a429527f27518c01ed2"
+      },
+      {
+        "path": "src/app/components/layout/FinanceDashboard.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "a0e82e8d4595264fe58be80aeb75ce6482919b86c6a4143d4d595588042021ee"
+      },
+      {
+        "path": "src/app/components/layout/HRAdminDashboard.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "57c6a0bb81cc5090bd8b78bb16f5d836f09e8b955c57746ab3da44fb7352e9ca"
+      },
+      {
+        "path": "src/app/components/layout/ManagerDashboard.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "7dff6ad2468aa67d3552140c0a7c86487971d9d2313d21d1c6acd0af7fff6437"
+      }
+    ]
+  },
+  {
+    "id": "layout-component-SplitWorkspaceLayout",
+    "name": "SplitWorkspaceLayout",
+    "kind": "layout family",
+    "evidence": "OBSERVED source styles / PROPOSED slot API",
+    "adoption": "candidate",
+    "source": {
+      "path": "src/app/components/layout/DocumentManagementHub.tsx",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "4f69b6f49283b1c550bdfa09c52bd827faff80f560469d59d3276972a053808b"
+    },
+    "inspection": "source and extracted composition reviewed",
+    "extraction": "extracted",
+    "destination": "packages/react/src/layouts.tsx",
+    "documentation": "docs/patterns/layouts.md",
+    "catalogue": "/#layouts",
+    "validation": "synthetic layout acceptance; not every source route/role",
+    "limitations": "No auth/router/store/business data. Host supplies authorized links, explicit active state and callbacks.",
+    "sources": [
+      {
+        "path": "src/app/components/layout/DocumentManagementHub.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "4f69b6f49283b1c550bdfa09c52bd827faff80f560469d59d3276972a053808b"
+      },
+      {
+        "path": "src/app/components/layout/UnifiedChatWorkspace.tsx",
+        "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+        "sha256": "3254aa1febd3b3262f6e09dc07444874fe44e492956dc77f039c4f7f014a50dc"
+      }
+    ]
+  }
+]

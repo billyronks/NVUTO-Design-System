@@ -1,0 +1,94 @@
+{
+  "classification": "implementation prepared; verification incomplete",
+  "scope": "NVUTO HR React web extraction only; all exports remain adoption candidates",
+  "version": "0.1.0-extraction.1",
+  "generatedAt": "2026-10-29T10:42:41.459Z",
+  "baselineRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "observedSourceHead": "05cb85d2a855d672be85cfc1049b164dd7ac7d1d",
+  "checks": [
+    {
+      "area": "locked clean dependency installation",
+      "result": "PASS",
+      "evidence": "audit/clean-results.json",
+      "note": "Clean npm ci retained; dependency lock unchanged across documented source/verifier amendments; final-source build/check/catalogue rerun."
+    },
+    {
+      "area": "unit, token, SSR and hydration checks",
+      "result": "PASS",
+      "passed": 24,
+      "total": 24,
+      "evidence": "audit/unit-results.json"
+    },
+    {
+      "area": "complete public-import examples",
+      "result": "PASS",
+      "total": 59,
+      "evidence": "audit/snippet-results.json"
+    },
+    {
+      "area": "browser functional, responsive and fidelity suite",
+      "result": "PASS",
+      "passed": 17,
+      "total": 17,
+      "evidence": "audit/browser-results.json"
+    },
+    {
+      "area": "source visual fidelity",
+      "result": "PASS",
+      "samples": 6,
+      "evidence": "audit/fidelity-results.json"
+    },
+    {
+      "area": "packed independent consumer",
+      "result": "PASS",
+      "evidence": "audit/consumer-results.json",
+      "directory": "C:\\Users\\thobb\\AppData\\Local\\Temp\\nvuto-design-system-consumer-MFpQNG"
+    },
+    {
+      "area": "WCAG 2.2 AA automated gate",
+      "result": "FAIL",
+      "affectedNodes": 5,
+      "evidence": "audit/accessibility-gate.json"
+    },
+    {
+      "area": "source evidence and workspace preservation",
+      "result": "PASS",
+      "evidence": "audit/source-unchanged.json",
+      "note": "Source HEAD advanced independently through backend-only commits; frontend diff empty, retained hashes match and working tree clean."
+    },
+    {
+      "area": "manual desktop visual review",
+      "result": "SAMPLED",
+      "evidence": "audit/manual-review.md"
+    },
+    {
+      "area": "screen reader, physical device and exhaustive zoom/state acceptance",
+      "result": "NOT_RUN",
+      "evidence": "audit/manual-review.md"
+    },
+    {
+      "area": "CI execution on hosted runner",
+      "result": "NOT_RUN",
+      "note": "Workflow prepared, not uploaded or executed; no remote configured."
+    }
+  ],
+  "remaining": [
+    "5 automated AA affected nodes; see current exact findings/targets in accessibility gate.",
+    "Source focus contrast and legacy custom popup/overlay/AT combinations require review.",
+    "Manual screen reader, physical devices, 400% zoom and full role/route/state matrix not accepted.",
+    "Desk pinned package/glass parity and other-product authority unverified.",
+    "Maintainers, source licensing, brand redistribution, package/registry ownership and approval authority unresolved."
+  ],
+  "publication": {
+    "private": true,
+    "license": "UNLICENSED",
+    "guardEnabled": true,
+    "remoteConfigured": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "git": {
+    "initialized": true,
+    "branch": "codex/design-system-extraction"
+  }
+}

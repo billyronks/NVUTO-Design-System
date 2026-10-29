@@ -1,0 +1,639 @@
+[
+  {
+    "name": "@emotion/react",
+    "requested": "11.14.0",
+    "resolved": "11.14.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@emotion/styled",
+    "requested": "11.14.1",
+    "resolved": "11.14.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@hello-pangea/dnd",
+    "requested": "^18.0.1",
+    "resolved": "18.0.1",
+    "license": "Apache-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@hookform/resolvers",
+    "requested": "^5.4.0",
+    "resolved": "5.4.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@mui/icons-material",
+    "requested": "7.3.5",
+    "resolved": "7.3.5",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@mui/material",
+    "requested": "7.3.5",
+    "resolved": "7.3.5",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@popperjs/core",
+    "requested": "2.11.8",
+    "resolved": "2.11.8",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-accordion",
+    "requested": "1.2.3",
+    "resolved": "1.2.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-alert-dialog",
+    "requested": "1.1.6",
+    "resolved": "1.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-aspect-ratio",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-avatar",
+    "requested": "1.1.3",
+    "resolved": "1.1.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-checkbox",
+    "requested": "1.1.4",
+    "resolved": "1.1.4",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-collapsible",
+    "requested": "1.1.3",
+    "resolved": "1.1.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-context-menu",
+    "requested": "2.2.6",
+    "resolved": "2.2.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-dialog",
+    "requested": "1.1.6",
+    "resolved": "1.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-dropdown-menu",
+    "requested": "2.1.6",
+    "resolved": "2.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-hover-card",
+    "requested": "1.1.6",
+    "resolved": "1.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-label",
+    "requested": "2.1.2",
+    "resolved": "2.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-menubar",
+    "requested": "1.1.6",
+    "resolved": "1.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-navigation-menu",
+    "requested": "1.2.5",
+    "resolved": "1.2.5",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-popover",
+    "requested": "1.1.6",
+    "resolved": "1.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-progress",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-radio-group",
+    "requested": "1.2.3",
+    "resolved": "1.2.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-scroll-area",
+    "requested": "1.2.3",
+    "resolved": "1.2.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-select",
+    "requested": "2.1.6",
+    "resolved": "2.1.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-separator",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-slider",
+    "requested": "1.2.3",
+    "resolved": "1.2.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-slot",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-switch",
+    "requested": "1.1.3",
+    "resolved": "1.1.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-tabs",
+    "requested": "1.1.3",
+    "resolved": "1.1.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-toggle",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-toggle-group",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@radix-ui/react-tooltip",
+    "requested": "1.1.8",
+    "resolved": "1.1.8",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@reduxjs/toolkit",
+    "requested": "^2.12.0",
+    "resolved": "2.12.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@solar-icons/react",
+    "requested": "^1.1.1",
+    "resolved": "1.1.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@tanstack/react-query",
+    "requested": "^5.101.2",
+    "resolved": "5.101.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "adm-zip",
+    "requested": "^0.6.0",
+    "resolved": "0.6.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "canvas-confetti",
+    "requested": "1.9.4",
+    "resolved": "1.9.4",
+    "license": "ISC",
+    "designSystemPackage": false
+  },
+  {
+    "name": "class-variance-authority",
+    "requested": "0.7.1",
+    "resolved": "0.7.1",
+    "license": "Apache-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "clsx",
+    "requested": "2.1.1",
+    "resolved": "2.1.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "cmdk",
+    "requested": "1.1.1",
+    "resolved": "1.1.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "date-fns",
+    "requested": "^3.6.0",
+    "resolved": "3.6.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "embla-carousel-react",
+    "requested": "8.6.0",
+    "resolved": "8.6.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "fast-xml-parser",
+    "requested": "^5.11.1",
+    "resolved": "5.11.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "framer-motion",
+    "requested": "^12.40.0",
+    "resolved": "12.40.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "html5-qrcode",
+    "requested": "^2.3.8",
+    "resolved": "2.3.8",
+    "license": "Apache-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "input-otp",
+    "requested": "1.4.2",
+    "resolved": "1.4.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "motion",
+    "requested": "12.23.24",
+    "resolved": "12.23.24",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "next-themes",
+    "requested": "0.4.6",
+    "resolved": "0.4.6",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "pdf-lib",
+    "requested": "^1.17.1",
+    "resolved": "1.17.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "pg",
+    "requested": "^8.23.0",
+    "resolved": "8.23.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react",
+    "requested": "18.3.1",
+    "resolved": "18.3.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-day-picker",
+    "requested": "8.10.1",
+    "resolved": "8.10.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-dnd",
+    "requested": "16.0.1",
+    "resolved": "16.0.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-dnd-html5-backend",
+    "requested": "16.0.1",
+    "resolved": "16.0.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-dom",
+    "requested": "18.3.1",
+    "resolved": "18.3.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-dropzone",
+    "requested": "^15.0.0",
+    "resolved": "15.0.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-hook-form",
+    "requested": "^7.81.0",
+    "resolved": "7.81.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-popper",
+    "requested": "2.3.0",
+    "resolved": "2.3.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-quill",
+    "requested": "^2.0.0",
+    "resolved": "2.0.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-redux",
+    "requested": "^9.3.0",
+    "resolved": "9.3.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-resizable-panels",
+    "requested": "2.1.7",
+    "resolved": "2.1.7",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-responsive-masonry",
+    "requested": "2.7.1",
+    "resolved": "2.7.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-router",
+    "requested": "7.13.0",
+    "resolved": "7.13.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-router-dom",
+    "requested": "^7.17.0",
+    "resolved": "7.18.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-select",
+    "requested": "^5.10.2",
+    "resolved": "5.10.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "react-slick",
+    "requested": "0.31.0",
+    "resolved": "0.31.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "recharts",
+    "requested": "2.15.2",
+    "resolved": "2.15.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "redux-persist",
+    "requested": "^6.0.0",
+    "resolved": "6.0.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "signature_pad",
+    "requested": "^5.1.4",
+    "resolved": "5.1.4",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "sonner",
+    "requested": "2.0.3",
+    "resolved": "2.0.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "tailwind-merge",
+    "requested": "3.2.0",
+    "resolved": "3.2.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "tw-animate-css",
+    "requested": "1.3.8",
+    "resolved": "1.3.8",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "vaul",
+    "requested": "1.1.2",
+    "resolved": "1.1.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "zod",
+    "requested": "^4.4.3",
+    "resolved": "4.4.3",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "zustand",
+    "requested": "^5.0.14",
+    "resolved": "5.0.14",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@axe-core/playwright",
+    "requested": "^4.12.1",
+    "resolved": "4.12.1",
+    "license": "MPL-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@playwright/test",
+    "requested": "^1.61.1",
+    "resolved": "1.61.1",
+    "license": "Apache-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@tailwindcss/vite",
+    "requested": "4.1.12",
+    "resolved": "4.1.12",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "requested": "^6.9.1",
+    "resolved": "6.9.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@testing-library/react",
+    "requested": "^16.3.0",
+    "resolved": "16.3.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@types/adm-zip",
+    "requested": "^0.5.8",
+    "resolved": "0.5.8",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@types/node",
+    "requested": "^26.2.0",
+    "resolved": "26.2.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@types/pg",
+    "requested": "^8.23.1",
+    "resolved": "8.23.1",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "requested": "4.7.0",
+    "resolved": "4.7.0",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "happy-dom",
+    "requested": "^20.11.2",
+    "resolved": "20.11.2",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "tailwindcss",
+    "requested": "4.1.12",
+    "resolved": "4.1.12",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "tsx",
+    "requested": "^4.23.13",
+    "resolved": "4.23.13",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "typescript",
+    "requested": "^5.9.3",
+    "resolved": "5.9.3",
+    "license": "Apache-2.0",
+    "designSystemPackage": false
+  },
+  {
+    "name": "vite",
+    "requested": "6.3.5",
+    "resolved": "6.3.5",
+    "license": "MIT",
+    "designSystemPackage": false
+  },
+  {
+    "name": "vitest",
+    "requested": "^4.1.11",
+    "resolved": "4.1.11",
+    "license": "MIT",
+    "designSystemPackage": false
+  }
+]

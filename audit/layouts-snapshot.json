@@ -1,0 +1,157 @@
+{
+  "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "files": [
+    {
+      "path": "nvuto-superadmin-web/src/LoginPage.tsx",
+      "sha256": "9b5c705dbf0342b3655088f4d51479a2e41dd30770da94c5350eaaef7b7d292c"
+    },
+    {
+      "path": "nvuto-superadmin-web/src/SubNavTabs.tsx",
+      "sha256": "ca9bdb341bff97b633c9191e507908cf0dc662b4efb346d83dd9140c2e0f2b9c"
+    },
+    {
+      "path": "src/app/components/layout/AppLayout.tsx",
+      "sha256": "e491b6e0a5a0e8d15fb36d25f61d96a2cd44301d398d1a37369a9ba8f8c840bc"
+    },
+    {
+      "path": "src/app/components/layout/CEODashboard.tsx",
+      "sha256": "e6711539eca9bea944fb06c5814018ac0b46602d7bfeee07cf0055215ff5afae"
+    },
+    {
+      "path": "src/app/components/layout/CalendarTabs.tsx",
+      "sha256": "7cf594b941df8a93d7394d22d39d4464b8739fd6e47b31ae721a34904f56255c"
+    },
+    {
+      "path": "src/app/components/layout/ComingSoonModuleWrapper.tsx",
+      "sha256": "8971aa5daa4c140156efcbf698d9d9bfb6eb8a470dda51a4c779e5326a2712b6"
+    },
+    {
+      "path": "src/app/components/layout/DocumentManagementHub.tsx",
+      "sha256": "4f69b6f49283b1c550bdfa09c52bd827faff80f560469d59d3276972a053808b"
+    },
+    {
+      "path": "src/app/components/layout/EmployeeDashboard.tsx",
+      "sha256": "4ed50eba73b268c3783fb442ecdf84c8c30a21cd5ad88a429527f27518c01ed2"
+    },
+    {
+      "path": "src/app/components/layout/EmployeeProfileDrawer.tsx",
+      "sha256": "454c6bfa197ad3ff41f59d7d8812d41c98419405d9a8cda44b1f37ff36108e60"
+    },
+    {
+      "path": "src/app/components/layout/EmployeeRecordManager.tsx",
+      "sha256": "abbddd72e22484939c6c022cef98805ccbe0cad39a16b3dccd6cc81eaa760383"
+    },
+    {
+      "path": "src/app/components/layout/EmployeeSidebar.tsx",
+      "sha256": "188ccba3bade04bebb538070996c93dbabd07aa9c1ebf5c3830d14ade0f71abc"
+    },
+    {
+      "path": "src/app/components/layout/FinanceDashboard.tsx",
+      "sha256": "a0e82e8d4595264fe58be80aeb75ce6482919b86c6a4143d4d595588042021ee"
+    },
+    {
+      "path": "src/app/components/layout/ForcePasswordReset.tsx",
+      "sha256": "1060f19f29ec4ad6427791c415b25d453f5cb6ee64f35f471a16d8aa461b5696"
+    },
+    {
+      "path": "src/app/components/layout/ForgotPasswordPage.tsx",
+      "sha256": "2a0284112fcc1b784f937cb4cf36cb8330b9efd4c8e08f308535c05390c84b18"
+    },
+    {
+      "path": "src/app/components/layout/GlobalHeader.tsx",
+      "sha256": "25117e50bcaac5f49ad7e535d79224fe05d290d4a1a52141059bbf50576be185"
+    },
+    {
+      "path": "src/app/components/layout/GlobalSearchBar.tsx",
+      "sha256": "c681f000e70b28bfc8b1c8547e2cfd3d935ab5dde6b717cdf7ee1ae9d05ba878"
+    },
+    {
+      "path": "src/app/components/layout/HRAdminDashboard.tsx",
+      "sha256": "57c6a0bb81cc5090bd8b78bb16f5d836f09e8b955c57746ab3da44fb7352e9ca"
+    },
+    {
+      "path": "src/app/components/layout/LoginPage.tsx",
+      "sha256": "8af934a8d56ebcbb8be2a90444f7318524391109acf29f055a4d4cc8a5fb39d5"
+    },
+    {
+      "path": "src/app/components/layout/ManagerDashboard.tsx",
+      "sha256": "7dff6ad2468aa67d3552140c0a7c86487971d9d2313d21d1c6acd0af7fff6437"
+    },
+    {
+      "path": "src/app/components/layout/ManagerSidebar.tsx",
+      "sha256": "d4221224f174a8ea2b4c0eedf7190b1b73900d468cbd0c14dcd4967be20a3df3"
+    },
+    {
+      "path": "src/app/components/layout/PerformanceSubNavigation.tsx",
+      "sha256": "7679361f26dcdd427ebcc7bc99ec2debf3a3db92b1e3ae694a64d91ed86dc859"
+    },
+    {
+      "path": "src/app/components/layout/PlatformLoader.tsx",
+      "sha256": "82b68128eeb47e8bbd3b64220b6010938e4cd2d8ecde3a70d5018179234060b6"
+    },
+    {
+      "path": "src/app/components/layout/PrimarySidebar.tsx",
+      "sha256": "70d37efd25d7c8489a8a11c4e216af0e25e93251baeefb1da22e5a949cef9ce4"
+    },
+    {
+      "path": "src/app/components/layout/RecruitmentShell.tsx",
+      "sha256": "a48b1be040c8b762b7ce8510edf1f221be253a50f37bceda928b21b857f6de87"
+    },
+    {
+      "path": "src/app/components/layout/ResetPasswordPage.tsx",
+      "sha256": "640b178b9c4c8a76f8fdc9b98b853f0d71eb046b88c8877a411a71c5bee4145f"
+    },
+    {
+      "path": "src/app/components/layout/RoleSidebarNav.tsx",
+      "sha256": "c43eeb5268ad4c0019af84dc4349b6f151766fe5c9790adee15bc5cef85e3599"
+    },
+    {
+      "path": "src/app/components/layout/RoleSwitcher.tsx",
+      "sha256": "4ac46d82786333516a3f7b8c4fc7beed9b80fca2c03bfb54ff2ca0e3ff19166e"
+    },
+    {
+      "path": "src/app/components/layout/SecondarySidebar.tsx",
+      "sha256": "43e6ddad721c4f4a984e0172ad6f7fdcf1759b839572ebb60acc7d027b9ce6a0"
+    },
+    {
+      "path": "src/app/components/layout/SecondarySubNavTabs.tsx",
+      "sha256": "f671c5b2b9f2f0362572ea4801aacee8cb818b28187c0fa1c6794390974c1357"
+    },
+    {
+      "path": "src/app/components/layout/SidebarNavigation.tsx",
+      "sha256": "31677a703d139e6409db09def1f8491dfc2ae9f04adda12a06e87a65c620f202"
+    },
+    {
+      "path": "src/app/components/layout/SubNavTabs.tsx",
+      "sha256": "b65dbb47db7dc93a3108f07f22f75e4f550c25c426c01fe7e7d2f38cf7c05d2f"
+    },
+    {
+      "path": "src/app/components/layout/TenantOnboardingWizard.tsx",
+      "sha256": "a0218d4742838fda69011eda5b9ce1e0c23c136b3354274e212ea67a41eb577b"
+    },
+    {
+      "path": "src/app/components/layout/UnauthorizedAccess.tsx",
+      "sha256": "21f0af105f0ab40d03576b853a806db0a7502b4269ccf7cdacaa6c241c2ac519"
+    },
+    {
+      "path": "src/app/components/layout/UnifiedChatWorkspace.tsx",
+      "sha256": "3254aa1febd3b3262f6e09dc07444874fe44e492956dc77f039c4f7f014a50dc"
+    },
+    {
+      "path": "src/app/components/layout/WelcomeHeader.tsx",
+      "sha256": "3895ab7c4a9389103274dea6a45087acb73c2a3578cdd6400b1f1b7ee0a12e53"
+    },
+    {
+      "path": "src/app/components/public/PublicCareerPortalPreview.tsx",
+      "sha256": "9496e2a46e80fd9bea7549a0397ac0b31a4e45581f15a25419d1c933ad0a28d1"
+    },
+    {
+      "path": "src/app/components/public/PublicJobDetailView.tsx",
+      "sha256": "f10d419f926c014d50fbef4546404a668ed099483971477d6bcaec627f5f3484"
+    },
+    {
+      "path": "src/app/modules/hr/components/MarketingSection.tsx",
+      "sha256": "863d8140bbca9d2e697941460fd92d939ad4ca77c3d2cc0ff0dfb7dabceff3fa"
+    }
+  ]
+}

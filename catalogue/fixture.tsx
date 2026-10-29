@@ -1,0 +1,2 @@
+import * as React from 'react';import {createRoot} from 'react-dom/client';import * as UI from 'nvuto-hr-ui';import 'nvuto-hr-foundations/fonts.css';import 'nvuto-hr-foundations/styles.css';import 'nvuto-hr-ui/styles.css';import {Fixture} from './fixture-layout';
+const theme=new URLSearchParams(location.search).get('theme')==='dark'?'dark':'light';createRoot(document.getElementById('root')!).render(<UI.NvutoProvider theme={theme}><Fixture UI={UI}/></UI.NvutoProvider>);

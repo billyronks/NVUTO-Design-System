@@ -1,0 +1,37 @@
+[
+  {
+    "id": "primary-contrast",
+    "status": "unresolved source defect",
+    "observed": "#FF4F00 with white small text",
+    "proposal": "Owner must approve accessible action foreground/background or component-level treatment. Existing #CC3F00 active state is a candidate, not an adopted palette replacement.",
+    "adoption": "not approved"
+  },
+  {
+    "id": "radius-conflict",
+    "status": "preserved",
+    "observed": "theme radius .625rem versus rounded-lg/xl and 18px FAB",
+    "proposal": "Keep exact variants; do not silently merge radii.",
+    "adoption": "candidate"
+  },
+  {
+    "id": "border-conflict",
+    "status": "preserved",
+    "observed": "rgba(0,0,0,.1) theme border versus #E2E8F0 semantic border-default and literal utilities",
+    "proposal": "Map component-by-component after visual review, not blanket replacement.",
+    "adoption": "candidate"
+  },
+  {
+    "id": "type-scale",
+    "status": "preserved",
+    "observed": "theme, typography classes and Tailwind config scales coexist",
+    "proposal": "Typography contracts identify the actual source class; no new global scale approved.",
+    "adoption": "candidate"
+  },
+  {
+    "id": "glass",
+    "status": "not observed",
+    "observed": "No HR glass theme contract found",
+    "proposal": "Request Desk pinned package/contracts before adding glass modes.",
+    "adoption": "unverified"
+  }
+]

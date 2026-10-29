@@ -1,0 +1,6 @@
+{
+  "files": 59,
+  "command": "node scripts/check-snippets.mjs",
+  "result": "PASS",
+  "diagnostics": []
+}

@@ -1,0 +1,836 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\playwright.config.ts",
+    "rootDir": "C:/Users/thobb/.codex/visualizations/2026/08/31/01a0577d-fe64-73c1-a24a-43f2211fe677/nvuto-design-system/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/thobb/.codex/visualizations/2026/08/31/01a0577d-fe64-73c1-a24a-43f2211fe677/nvuto-design-system/audit/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/thobb/.codex/visualizations/2026/08/31/01a0577d-fe64-73c1-a24a-43f2211fe677/nvuto-design-system/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "audit/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview:catalogue",
+      "url": "http://127.0.0.1:5187",
+      "reuseExistingServer": true,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "acceptance.spec.ts",
+      "file": "acceptance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "catalogue families render, form state, keyboard dialog focus and scoped theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3792,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:42:54.728Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-f3ea2be33a040578f0ba",
+          "file": "acceptance.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "WCAG 2.2 AA automated audit records source defects without claiming conformance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5724,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:42:58.773Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-5b36ba13182f501c4448",
+          "file": "acceptance.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "responsive patterns at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 875,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:04.506Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-c441479121a048f1cc09",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 375",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 802,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:05.390Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-5c13dfb0c40e70ae5c4f",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 640",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 465,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:06.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-5abce7a5364b882e2b07",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 767",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 682,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:06.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-16774151b40d32841265",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 830,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:07.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-e0acfec7ceaa383f9ac1",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 900",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 763,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:08.224Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-74b71c519e635082a938",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 1024",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 708,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:09.007Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-3215a40f1e3bb4276d73",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 1280",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:09.734Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-88423f63cbe483fbf2a6",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "responsive patterns at 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 676,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:10.244Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-6e9115b1d1b358bf3417",
+          "file": "acceptance.spec.ts",
+          "line": 15,
+          "column": 61
+        },
+        {
+          "title": "reference fidelity: same controlled source fixture against public package",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2041,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(255, 255, 255)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(15, 23, 42)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 201.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"oklch(0.372 0.044 257.287)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(255, 255, 255)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(15, 23, 42)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 201.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"oklch(0.372 0.044 257.287)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102",
+                    "location": {
+                      "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                      "column": 102,
+                      "line": 24
+                    },
+                    "snippet": "  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(255, 255, 255)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(15, 23, 42)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 201.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"oklch(0.372 0.044 257.287)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(255, 255, 255)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(15, 23, 42)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 149.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"oklch(0.372 0.044 257.287)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(255, 255, 255)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(15, 23, 42)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 155.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"oklch(0.372 0.044 257.287)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(17, 22, 37)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(248, 250, 252)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 201.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(226, 232, 240)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(17, 22, 37)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(248, 250, 252)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 149.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(226, 232, 240)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                        "column": 102,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[33m@@ -80,11 +80,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgb(17, 22, 37)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"14px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(248, 250, 252)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"16px\",\u001b[22m\n\u001b[2m          \"height\": 155.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"26px\",\u001b[22m\n\u001b[2m          \"tag\": \"DIV\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[33m@@ -99,11 +99,11 @@\u001b[39m\n\u001b[2m      \"children\": Array [\u001b[22m\n\u001b[2m        Object {\u001b[22m\n\u001b[2m          \"background\": \"rgba(0, 0, 0, 0)\",\u001b[22m\n\u001b[2m          \"borderRadius\": \"0px\",\u001b[22m\n\u001b[2m          \"color\": \"rgb(226, 232, 240)\",\u001b[22m\n\u001b[32m-         \"fontFamily\": \"Poppins, sans-serif\",\u001b[39m\n\u001b[31m+         \"fontFamily\": \"Poppins, -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, sans-serif\",\u001b[39m\n\u001b[2m          \"fontSize\": \"14px\",\u001b[22m\n\u001b[2m          \"height\": 120.5,\u001b[22m\n\u001b[2m          \"lineHeight\": \"20px\",\u001b[22m\n\u001b[2m          \"tag\": \"TABLE\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\n  22 |   const actual=await measure(page),expected=await measure(reference);results.push({theme,width,actual,expected});await page.locator('#fidelity').screenshot({path:`audit/extracted-${theme}-${width}.png`});await reference.locator('#fidelity').screenshot({path:`audit/reference-${theme}-${width}.png`});\n  23 |   const a=PNG.sync.read(fs.readFileSync(`audit/extracted-${theme}-${width}.png`)),b=PNG.sync.read(fs.readFileSync(`audit/reference-${theme}-${width}.png`));let pixels:number|null=null;if(a.width===b.width&&a.height===b.height){const diff=new PNG({width:a.width,height:a.height});pixels=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:0.1});fs.writeFileSync(`audit/diff-${theme}-${width}.png`,PNG.sync.write(diff));}Object.assign(results[results.length-1],{pixelDifference:pixels,dimensionsMatch:a.width===b.width&&a.height===b.height,tolerance:'Pixelmatch threshold 0.1, <0.5% changed pixels; exact computed geometry/style equality'});\n> 24 |   fs.writeFileSync('audit/fidelity-results.json',JSON.stringify(results,null,2));expect.soft(actual).toEqual(expected);expect.soft(pixels).not.toBeNull();if(pixels!==null)expect.soft(pixels/(a.width*a.height)).toBeLessThan(.005);\n     |                                                                                                      ^\n  25 |  }\n  26 |  await reference.close();\n  27 | });\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts:24:102"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:10.932Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\audit\\browser-artifacts\\acceptance-reference-fidel-939c0-ture-against-public-package\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\acceptance.spec.ts",
+                    "column": 102,
+                    "line": 24
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6bf654160f377cf56a60-92383128c2a91d55dea4",
+          "file": "acceptance.spec.ts",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "layouts.spec.ts",
+      "file": "layouts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "layout rails, role preview and drawer at 320",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1383,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m321\u001b[39m\nReceived:    \u001b[31m463\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m321\u001b[39m\nReceived:    \u001b[31m463\u001b[39m\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:2:548",
+                    "location": {
+                      "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                      "column": 548,
+                      "line": 2
+                    },
+                    "snippet": "  1 | import {test,expect} from '@playwright/test';\n> 2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                        "column": 548,
+                        "line": 2
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m321\u001b[39m\nReceived:    \u001b[31m463\u001b[39m\n\n  1 | import {test,expect} from '@playwright/test';\n> 2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:2:548"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:15.630Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\audit\\browser-artifacts\\layouts-layout-rails-role-preview-and-drawer-at-320\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                    "column": 548,
+                    "line": 2
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d6273cd28b9faf8bafe2-74a22a2d181dd0f017a2",
+          "file": "layouts.spec.ts",
+          "line": 2,
+          "column": 44
+        },
+        {
+          "title": "layout rails, role preview and drawer at 375",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1594,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m376\u001b[39m\nReceived:    \u001b[31m463\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m376\u001b[39m\nReceived:    \u001b[31m463\u001b[39m\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:2:548",
+                    "location": {
+                      "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                      "column": 548,
+                      "line": 2
+                    },
+                    "snippet": "  1 | import {test,expect} from '@playwright/test';\n> 2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                        "column": 548,
+                        "line": 2
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m376\u001b[39m\nReceived:    \u001b[31m463\u001b[39m\n\n  1 | import {test,expect} from '@playwright/test';\n> 2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:2:548"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:18.556Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\audit\\browser-artifacts\\layouts-layout-rails-role-preview-and-drawer-at-375\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                    "column": 548,
+                    "line": 2
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d6273cd28b9faf8bafe2-2555b2144f39db40c39d",
+          "file": "layouts.spec.ts",
+          "line": 2,
+          "column": 44
+        },
+        {
+          "title": "layout rails, role preview and drawer at 768",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8227,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'Open workspace navigation' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Open workspace navigation' })\u001b[22m\n\u001b[2m    14 × locator resolved to <button type=\"button\" data-slot=\"button\" aria-label=\"Open workspace navigation\" class=\"inline-flex items-center justify-center font-bold tracking-wide transition-all duration-200 select-none outline-none focus-visible:ring-2 focus-visible:ring-[#FF4F00] focus-visible:ring-offset-2 dark:focus-visible:ring-offset-[#0B0F19] cursor-pointer disabled:opacity-50 disabled:pointer-events-none border border-slate-200 dark:border-[#232D42] bg-white dark:bg-[#171E2E] text-slate-900 dark:text-[#F8FAFC] hover:bg-sl…>Menu</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'Open workspace navigation' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Open workspace navigation' })\u001b[22m\n\u001b[2m    14 × locator resolved to <button type=\"button\" data-slot=\"button\" aria-label=\"Open workspace navigation\" class=\"inline-flex items-center justify-center font-bold tracking-wide transition-all duration-200 select-none outline-none focus-visible:ring-2 focus-visible:ring-[#FF4F00] focus-visible:ring-offset-2 dark:focus-visible:ring-offset-[#0B0F19] cursor-pointer disabled:opacity-50 disabled:pointer-events-none border border-slate-200 dark:border-[#232D42] bg-white dark:bg-[#171E2E] text-slate-900 dark:text-[#F8FAFC] hover:bg-sl…>Menu</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:3:532",
+                    "location": {
+                      "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                      "column": 532,
+                      "line": 3
+                    },
+                    "snippet": "  1 | import {test,expect} from '@playwright/test';\n  2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n> 3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                        "column": 532,
+                        "line": 3
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'Open workspace navigation' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Open workspace navigation' })\u001b[22m\n\u001b[2m    14 × locator resolved to <button type=\"button\" data-slot=\"button\" aria-label=\"Open workspace navigation\" class=\"inline-flex items-center justify-center font-bold tracking-wide transition-all duration-200 select-none outline-none focus-visible:ring-2 focus-visible:ring-[#FF4F00] focus-visible:ring-offset-2 dark:focus-visible:ring-offset-[#0B0F19] cursor-pointer disabled:opacity-50 disabled:pointer-events-none border border-slate-200 dark:border-[#232D42] bg-white dark:bg-[#171E2E] text-slate-900 dark:text-[#F8FAFC] hover:bg-sl…>Menu</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n  1 | import {test,expect} from '@playwright/test';\n  2 | for(const width of [320,375,768,1024,1440])test(`layout rails, role preview and drawer at ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/');await page.getByRole('button',{name:'layouts',exact:true}).click();await page.getByRole('combobox',{name:'Preview role'}).selectOption('Manager');await expect(page.getByRole('heading',{name:'Manager workspace',exact:true})).toBeVisible();const before=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));expect(before.scroll).toBeLessThanOrEqual(before.width+1);\n> 3 | if(width<1024){const trigger=page.getByRole('button',{name:'Open workspace navigation'});await trigger.click();const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();await expect(dialog.getByRole('navigation',{name:'Workspace navigation',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Operations and support'}).click();await expect(dialog.getByRole('link',{name:'Settings',exact:true})).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();}else{await page.getByRole('button',{name:'Expand application navigation'}).click();await expect(page.locator('[data-navigation-rail=\"primary\"]')).toHaveCSS('width','240px');await page.getByRole('button',{name:'Collapse workspace navigation'}).click();await expect(page.locator('[data-navigation-rail=\"secondary\"]')).toHaveCSS('width','80px');}\n    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  4 | await page.getByRole('button',{name:'Switch to dark'}).click();await expect(page.locator('[data-nvuto-theme]')).toHaveAttribute('data-nvuto-theme','dark');await page.screenshot({path:`audit/layouts-${width}.png`,fullPage:true});});\n  5 |\n    at C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts:3:532"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:22.081Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\audit\\browser-artifacts\\layouts-layout-rails-role-preview-and-drawer-at-768\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\thobb\\.codex\\visualizations\\2026\\08\\31\\01a0577d-fe64-73c1-a24a-43f2211fe677\\nvuto-design-system\\tests\\browser\\layouts.spec.ts",
+                    "column": 532,
+                    "line": 3
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d6273cd28b9faf8bafe2-b6dcd6a16feb4e6d967d",
+          "file": "layouts.spec.ts",
+          "line": 2,
+          "column": 44
+        },
+        {
+          "title": "layout rails, role preview and drawer at 1024",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:34.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d6273cd28b9faf8bafe2-4cd85977f276a912289e",
+          "file": "layouts.spec.ts",
+          "line": 2,
+          "column": 44
+        },
+        {
+          "title": "layout rails, role preview and drawer at 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T09:43:38.722Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d6273cd28b9faf8bafe2-d24dff18450c645d6e52",
+          "file": "layouts.spec.ts",
+          "line": 2,
+          "column": 44
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T09:42:53.220Z",
+    "duration": 49099.525,
+    "expected": 13,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

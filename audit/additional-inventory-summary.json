@@ -1,0 +1,11 @@
+{
+  "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "sourceFiles": 730,
+  "lexicalOccurrences": {
+    "roles": 1454,
+    "states": 3494,
+    "breakpoints": 3826,
+    "locale": 574
+  },
+  "limitations": "Occurrences are discovery evidence, not separate user-visible states or complete role matrix. Dynamic expressions require host acceptance."
+}

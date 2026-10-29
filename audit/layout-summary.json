@@ -1,0 +1,9 @@
+{
+  "scannedSourceFiles": 652,
+  "layoutBearingFiles": 519,
+  "explicitLayoutSources": 38,
+  "parallelBoundaries": 37,
+  "visualStructureOccurrences": 6298,
+  "runtimeCoverage": "Synthetic core shell/navigation samples; no exhaustive role × route acceptance",
+  "everyItemDisposition": true
+}

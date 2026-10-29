@@ -1,0 +1,9 @@
+# Incremental migration and rollback
+
+Source baseline is unchanged. Old src/app/components/ui/<family> imports map to named public nvuto-hr-ui exports; preserved names and interfaces appear in registry/components.json and docs/components. Theme --primary maps to --nvuto-semantic-primary, --background to --nvuto-semantic-background, and each existing theme name maps to the corresponding semantic path. Exact mappings/provenance are in token documents and registry/tokens.json.
+
+Start with a bounded feature branch/route and explicit provider scope. Remove source global theme/font/reset side effects only after visual comparison. Import fonts/foundations/UI styles in that order. Replace Select's organization-inference adapter with host-supplied options; replace automatic business status colors with explicit StatusBadge variant. Router/store/auth/workflow remain in the host. Do not run the bootstrap extraction script over reviewed changes.
+
+Behavior differences: local fonts replace Google network loading; IDs are stable; portals stay in scoped roots; disabled slotted links cannot activate; switch labels/input errors are associated; source global hidden scrollbars/date listeners are removed; reduced motion is respected; buttons default to type=button. Forms must use explicit type=submit. See audit/remediations.json for detailed effects. No silent source contrast fix is claimed.
+
+Sequence: foundations in an isolated scope → low-risk primitives → forms → Radix overlays → table/page compositions → connected host workflows and all roles. Compare both themes/long text/keyboard before broad rollout. Preserve old imports/styles on the migration branch until acceptance; rollback restores the previous pinned package/import/CSS bundle together. Never mix incompatible theme/UI versions or migrate financial rules into core.

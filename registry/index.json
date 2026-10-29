@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0-extraction.1",
+  "sourceRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "scope": "NVUTO HR React web extraction",
+  "authoritative": false,
+  "entryPoints": {
+    "foundations": "nvuto-hr-foundations",
+    "react": "nvuto-hr-ui"
+  },
+  "indexes": [
+    "components.json",
+    "patterns.json",
+    "tokens.json",
+    "assets.json",
+    "layouts.json",
+    "public-exports.json"
+  ],
+  "start": [
+    "README.md",
+    "docs/integration/new-module.md",
+    "AGENTS.md"
+  ],
+  "coverage": "audit/coverage.json",
+  "release": "audit/final-verification.json"
+}

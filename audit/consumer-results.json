@@ -1,0 +1,47 @@
+{
+  "directory": "C:\\Users\\thobb\\AppData\\Local\\Temp\\nvuto-design-system-consumer-MFpQNG",
+  "steps": [
+    {
+      "command": "npm install --ignore-scripts --no-audit --no-fund",
+      "status": 0
+    },
+    {
+      "command": "npm run build",
+      "status": 0
+    }
+  ],
+  "exports": {
+    "ui": "file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-consumer-MFpQNG/node_modules/nvuto-hr-ui/dist/index.js",
+    "foundations": "file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-consumer-MFpQNG/node_modules/nvuto-hr-foundations/dist/index.js",
+    "exports": 262,
+    "ssr": true
+  },
+  "result": "PASS",
+  "serverCommand": "npm start",
+  "evidencePreserved": true,
+  "browser": {
+    "result": "PASS",
+    "errors": [],
+    "failed": [],
+    "evidence": {
+      "theme": "dark",
+      "fonts": true,
+      "image": true,
+      "buttonMinHeight": "44px",
+      "bodyWidth": 1280,
+      "viewport": 1280
+    },
+    "navigation": {
+      "result": "PASS",
+      "phoneWidth": 375,
+      "focusReturn": true,
+      "overflow": false,
+      "publicLayoutExports": true
+    },
+    "synthetic": true,
+    "sourceAliases": false,
+    "backendRequired": false
+  },
+  "retryEvidence": "audit/consumer-failed-focus-attempt.json",
+  "readiness": "Drawer focus entry asserted before keyboard Escape; exact installed tarball integrities rechecked."
+}

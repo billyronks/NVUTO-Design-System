@@ -1,0 +1,19 @@
+{
+  "scope": "Frontend evidence hashes and source working tree; independent HEAD movement is reported separately",
+  "baselineChangedPaths": [
+    "backend/pkg/dbcheck/runtime_ownership_test.go",
+    "backend/services/chat/handler/chat_messages.go"
+  ],
+  "frontendChangedPaths": [],
+  "headMoved": true,
+  "sourceWorkingTreeClean": true,
+  "evidenceHashesUnchanged": true,
+  "source": "C:\\Users\\thobb\\Downloads\\NVUTO ERP Web Application",
+  "revision": "05cb85d2a855d672be85cfc1049b164dd7ac7d1d",
+  "expectedRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "checkedHashes": 118,
+  "changedFiles": [],
+  "gitStatus": "",
+  "unchanged": true,
+  "checkedAt": "2026-10-29T10:42:07.931Z"
+}

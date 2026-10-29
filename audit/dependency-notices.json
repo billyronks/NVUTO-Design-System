@@ -1,0 +1,287 @@
+[
+  {
+    "name": "@solar-icons/react",
+    "version": "1.1.1",
+    "license": "MIT",
+    "notices": [
+      "LICENSE",
+      "LICENSE-THIRD-PARTY"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "framer-motion",
+    "version": "12.40.0",
+    "license": "MIT",
+    "notices": [
+      "LICENSE.md"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-accordion",
+    "version": "1.2.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-alert-dialog",
+    "version": "1.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "class-variance-authority",
+    "version": "0.7.1",
+    "license": "Apache-2.0",
+    "notices": [
+      "LICENSE"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-aspect-ratio",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-avatar",
+    "version": "1.1.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-slot",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "react-day-picker",
+    "version": "8.10.1",
+    "license": "MIT",
+    "notices": [
+      "LICENSE"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "embla-carousel-react",
+    "version": "8.6.0",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "recharts",
+    "version": "2.15.2",
+    "license": "MIT",
+    "notices": [
+      "LICENSE"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-checkbox",
+    "version": "1.1.4",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-collapsible",
+    "version": "1.1.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "cmdk",
+    "version": "1.1.1",
+    "license": "MIT",
+    "notices": [
+      "LICENSE.md"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-context-menu",
+    "version": "2.2.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "2.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-label",
+    "version": "2.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "react-hook-form",
+    "version": "7.81.0",
+    "license": "MIT",
+    "notices": [
+      "LICENSE"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-hover-card",
+    "version": "1.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "input-otp",
+    "version": "1.4.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-menubar",
+    "version": "1.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-navigation-menu",
+    "version": "1.2.5",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-popover",
+    "version": "1.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-progress",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-radio-group",
+    "version": "1.2.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "react-resizable-panels",
+    "version": "2.1.7",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-scroll-area",
+    "version": "1.2.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-select",
+    "version": "2.1.6",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-separator",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-slider",
+    "version": "1.2.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-switch",
+    "version": "1.1.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-tabs",
+    "version": "1.1.3",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-toggle-group",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-toggle",
+    "version": "1.1.2",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "@radix-ui/react-tooltip",
+    "version": "1.1.8",
+    "license": "MIT",
+    "notices": [],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "clsx",
+    "version": "2.1.1",
+    "license": "MIT",
+    "notices": [
+      "license"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  },
+  {
+    "name": "tailwind-merge",
+    "version": "3.2.0",
+    "license": "MIT",
+    "notices": [
+      "LICENSE.md"
+    ],
+    "redistribution": "Dependency license preserved; source/brand rights remain separate"
+  }
+]

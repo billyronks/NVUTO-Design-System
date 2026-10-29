@@ -1,0 +1,16 @@
+{
+  "sourceRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "routes": 551,
+  "screenFiles": 585,
+  "sharedUIFiles": 68,
+  "selectedUIFiles": 60,
+  "adapterUIFiles": 1,
+  "assets": 19,
+  "brandAssets": 4,
+  "rawDistinctValues": 398,
+  "rawValueOccurrences": 20439,
+  "distinctUtilities": 2343,
+  "themesObserved": 2,
+  "glassThemesUnverified": 2,
+  "externalDesignSystemPackages": []
+}

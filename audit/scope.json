@@ -1,0 +1,38 @@
+{
+  "included": [
+    "NVUTO HR React web shared UI/foundations",
+    "source routes/screens/role navigation inventory",
+    "controlled synthetic fixtures"
+  ],
+  "documentedOnly": [
+    "HR business screens/workflows",
+    "parallel superadmin console",
+    "Flutter/mobile styling — no adapter implemented"
+  ],
+  "excluded": [
+    {
+      "glob": "artifacts/**",
+      "reason": "retained historical evidence, not current application source"
+    },
+    {
+      "glob": ".tmp/**",
+      "reason": "local test evidence/runtime artifacts"
+    },
+    {
+      "glob": "backend/**",
+      "reason": "business services and sensitive configuration; only visible contract names referenced"
+    },
+    {
+      "glob": "node_modules/**",
+      "reason": "vendor implementation; dependency metadata/notices only"
+    },
+    {
+      "glob": "public/courses/**",
+      "reason": "learning content, not shared UI"
+    },
+    {
+      "glob": "src/tests/**",
+      "reason": "test fixtures, not production design authority"
+    }
+  ]
+}

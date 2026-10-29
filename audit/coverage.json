@@ -1,0 +1,124 @@
+{
+  "baselineRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "discovery": {
+    "literalRoutes": {
+      "accounted": 551,
+      "total": 551,
+      "runtimeVisited": 0
+    },
+    "screenFiles": {
+      "accounted": 585,
+      "total": 585,
+      "runtimeJourneys": 0
+    },
+    "sharedUIFiles": {
+      "accounted": 68,
+      "total": 68,
+      "extracted": 61,
+      "excludedOrDocumented": 7,
+      "utilitiesAmongExtracted": 2,
+      "renderableFamilies": 59
+    },
+    "layouts": {
+      "scannedSourceFiles": 652,
+      "layoutBearingFiles": 519,
+      "explicitLayoutSources": 38,
+      "parallelBoundaries": 37,
+      "visualStructureOccurrences": 6298,
+      "runtimeCoverage": "Synthetic core shell/navigation samples; no exhaustive role × route acceptance",
+      "everyItemDisposition": true,
+      "portableFamilies": 15,
+      "viewportSamples": [
+        320,
+        375,
+        768,
+        1024,
+        1440
+      ],
+      "rolePreviews": 7,
+      "liveRoleAcceptance": false
+    },
+    "themes": {
+      "observed": [
+        "light",
+        "dark"
+      ],
+      "fixtureAndInteractionTested": [
+        "light",
+        "dark"
+      ],
+      "unverified": [
+        "light-glass",
+        "dark-glass"
+      ]
+    }
+  },
+  "catalogue": {
+    "renderedSourceFamilies": 59,
+    "renderedPortableLayoutFamilies": 15,
+    "patterns": 5,
+    "completeTypeCheckedExamples": 59
+  },
+  "tokens": {
+    "uniquePaths": 242,
+    "themeMappings": 484,
+    "specification": "DTCG Format Module 2025.10 typed subset; explicit string extension"
+  },
+  "assets": {
+    "discovered": 19,
+    "brandCandidates": 4,
+    "fontFiles": 9,
+    "permissionStatus": "OFL notices retained; brand/source rights pending"
+  },
+  "states": {
+    "sourceOccurrences": 3494,
+    "meaning": "Lexical occurrences, not unique visible states",
+    "tested": "Core controlled form, validation, disabled link, native select, switch, Radix dialog, drawer, category disclosure, themes, reflow and fidelity samples",
+    "notExhaustive": "No complete route × role × theme × variant × state acceptance"
+  },
+  "fidelity": {
+    "compositions": 6,
+    "viewports": [
+      375,
+      768,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "changedPixels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tolerance": "0.1 pixelmatch threshold; <0.5% changed pixels and exact compared computed geometry/style",
+    "sourceFixture": "Preserved UI source with synthetic data and original font rules; only font network transport replaced"
+  },
+  "responsive": {
+    "pageWidths": [
+      320,
+      375,
+      640,
+      767,
+      768,
+      900,
+      1024,
+      1280,
+      1440
+    ],
+    "layoutWidths": [
+      320,
+      375,
+      768,
+      1024,
+      1440
+    ],
+    "physicalDevices": false,
+    "zoom400Percent": "not run"
+  },
+  "readiness": "implementation prepared; verification incomplete"
+}

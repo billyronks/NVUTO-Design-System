@@ -1,0 +1,134 @@
+
+> nvuto-design-system@0.1.0-extraction.1 check
+> npm run generate -- --check && npm run lint && npm run typecheck && npm test
+
+
+> nvuto-design-system@0.1.0-extraction.1 generate
+> node scripts/generate-tokens.mjs --check
+
+Verified 242 token paths × 2 themes.
+
+> nvuto-design-system@0.1.0-extraction.1 lint
+> node scripts/lint.mjs
+
+Boundary, stable-ID, docs-link and scoped-selector checks passed.
+
+> nvuto-design-system@0.1.0-extraction.1 typecheck
+> tsc --noEmit -p tsconfig.json
+
+
+> nvuto-design-system@0.1.0-extraction.1 test
+> vitest run
+
+
+ RUN  v4.1.11 C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod
+
+ ✓ tests/tokens.test.ts (7 tests) 12ms
+ ✓ tests/interaction.test.tsx (5 tests) 263ms
+ ✓ tests/ssr.test.tsx (1 test) 81ms
+ ✓ tests/hydration.test.tsx (1 test) 155ms
+ ✓ tests/layouts.test.tsx (4 tests) 192ms
+ ❯ tests/form-composition.test.tsx (2 tests | 1 failed) 253ms
+   ✓ uses explicit hook-form context with the native form wrapper 229ms
+   × associates text-area error feedback 21ms
+
+ Test Files  1 failed | 5 passed (6)
+      Tests  1 failed | 19 passed (20)
+   Start at  11:00:13
+   Duration  88.08s (transform 8.11s, setup 8.18s, import 323.26s, tests 958ms, environment 60.26s)
+
+JSON report written to C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/audit/unit-results.json
+
+stderr | tests/hydration.test.tsx > hydrates stable IDs without recoverable mismatches
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-presence/dist/index.mjs:19:11)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:97:13
+    at button
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-primitive/dist/index.mjs:26:13
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-presence/dist/index.mjs:19:11)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:97:13
+    at button
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-primitive/dist/index.mjs:26:13
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at BubbleInput (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:113:11)
+    at Provider (file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-context/dist/index.mjs:27:15)
+    at file:///C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/node_modules/@radix-ui/react-checkbox/dist/index.mjs:20:7
+    at div
+    at div
+    at C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/checkbox.tsx:7:54
+    at div
+    at NvutoProvider (C:/Users/thobb/AppData/Local/Temp/nvuto-design-system-clean-OrYhod/packages/react/src/NvutoProvider.tsx:8:26)
+    at App
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/form-composition.test.tsx > associates text-area error feedback
+TestingLibraryElementError: Unable to find a label with the text of: Notes
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"flex flex-col w-full"[39m
+    [36m>[39m
+      [36m<label[39m
+        [33mclass[39m=[32m"nvuto-label select-none flex items-center gap-0.5 mb-1"[39m
+        [33mdata-slot[39m=[32m"label"[39m
+        [33mfor[39m=[32m"textarea-:r2:"[39m
+      [36m>[39m
+        [0mNotes[0m
+        [36m<span[39m
+          [33mclass[39m=[32m"text-red-500 font-bold ml-0.5"[39m
+        [36m>[39m
+          [0m*[0m
+        [36m</span>[39m
+      [36m</label>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"relative w-full"[39m
+      [36m>[39m
+        [36m<textarea[39m
+          [33maria-describedby[39m=[32m"textarea-:r2:-error"[39m
+          [33maria-invalid[39m=[32m"true"[39m
+          [33mclass[39m=[32m"dark:border-[#232D42] placeholder:text-muted-foreground dark:placeholder:text-[#94A3B8] focus-visible:border-[#00D1B2] focus-visible:ring-2 focus-visible:ring-[#00D1B2]/40 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:text-[#F8FAFC] flex min-h-[80px] w-full rounded-md border px-3 py-2 text-base transition-colors outline-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm resize-none leading-relaxed ring-2 ring-red-500/50 bg-red-50/20 dark:bg-red-950/30 border-red-500"[39m
+          [33mdata-slot[39m=[32m"textarea"[39m
+          [33mid[39m=[32m"textarea-:r2:"[39m
+          [33mrequired[39m=[32m""[39m
+          [33mrows[39m=[32m"4"[39m
+        [36m/>[39m
+      [36m</div>[39m
+      [36m<span[39m
+        [33mclass[39m=[32m"text-sm text-[#BE123C] font-semibold mt-1"[39m
+        [33mid[39m=[32m"textarea-:r2:-error"[39m
+      [36m>[39m
+        [0mNotes are required[0m
+      [36m</span>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getAllByLabelText node_modules/@testing-library/dom/dist/queries/label-text.js:111:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ tests/form-composition.test.tsx:3:131
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+

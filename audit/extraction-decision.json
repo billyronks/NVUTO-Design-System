@@ -1,0 +1,10 @@
+{
+  "existingAuthority": "No pinned upstream Nvuto DS resolved in accessible HR manifests/lockfile; Desk source/contract unavailable.",
+  "scope": "HR-web extraction candidate only",
+  "namespace": "PROPOSED local private package names nvuto-hr-foundations and nvuto-hr-ui",
+  "packageVersion": "0.1.0-extraction.1",
+  "sourceRevision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+  "architecture": "npm workspaces; neutral foundations + React UI; Vite catalogue",
+  "publishing": "disabled; owner, registry and proprietary-code/brand license decisions pending",
+  "frameworkCompatibility": "React 18.3.1 only; neutral CSS/JSON portable; Flutter and other UI adapters not implemented"
+}

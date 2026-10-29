@@ -1,0 +1,19 @@
+
+> nvuto-design-system@0.1.0-extraction.1 build
+> npm run generate && vite build --config vite.library.config.ts && tsc -p packages/react/tsconfig.build.json && node scripts/scope-styles.mjs
+
+
+> nvuto-design-system@0.1.0-extraction.1 generate
+> node scripts/generate-tokens.mjs
+
+Generated 242 token paths × 2 themes.
+vite v6.3.5 building for production...
+transforming...
+✓ 66 modules transformed.
+rendering chunks...
+computing gzip size...
+packages/react/dist/unscoped.css  126.58 kB │ gzip: 21.44 kB
+packages/react/dist/index.js      195.21 kB │ gzip: 37.89 kB │ map: 404.36 kB
+✓ built in 1.49s
+Scoped compiled selectors to .nvuto-root; source hidden-scrollbar rules removed.
+

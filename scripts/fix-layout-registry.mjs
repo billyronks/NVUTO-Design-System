@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+const entries=JSON.parse(fs.readFileSync('registry/components.json','utf8'));for(const e of entries){if(Array.isArray(e.source)){e.sources=e.source;e.source=e.sources[0]||{path:'src/app/components/layout/RecruitmentShell.tsx',revision:'0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09'};}}fs.writeFileSync('registry/components.json',JSON.stringify(entries,null,2)+'\n');
+let app=fs.readFileSync('catalogue/App.tsx','utf8');app=app.replace("href={'#component-'+r.name} onClick={()=>setView('components')}","href={r.kind==='layout family'?'#layouts':'#component-'+r.name} onClick={()=>setView(r.kind==='layout family'?'layouts':'components')}");fs.writeFileSync('catalogue/App.tsx',app);
+// Keep subsequent registry regeneration compatible with the catalogue shape.
+let generator=fs.readFileSync('scripts/connect-layout-catalogue.mjs','utf8');generator=generator.replace('source:origins.map(i=>i.source),','source:origins[0]?.source||{path:\'src/app/components/layout/RecruitmentShell.tsx\',revision:\'0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09\'},sources:origins.map(i=>i.source),');fs.writeFileSync('scripts/connect-layout-catalogue.mjs',generator);

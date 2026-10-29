@@ -1,0 +1,1 @@
+throw new Error('Publication disabled: package identity, brand rights, maintainers, registry and source licensing require owner approval. Local npm pack is supported; do not remove private/license guards without review.');

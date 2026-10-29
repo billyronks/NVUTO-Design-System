@@ -1,0 +1,38 @@
+{
+  "target": "WCAG 2.2 AA",
+  "result": "FAIL",
+  "findings": [
+    {
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "affectedNodes": 3,
+      "targets": [
+        [
+          ".hover\\:bg-\\[\\#e04500\\].active\\:bg-\\[\\#CC3F00\\].bg-\\[\\#FF4F00\\]:nth-child(1)"
+        ],
+        [
+          ".underline-offset-4"
+        ],
+        [
+          "#radix-\\:r19\\:"
+        ]
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "affectedNodes": 2,
+      "targets": [
+        [
+          ".hover\\:bg-\\[\\#e04500\\].active\\:bg-\\[\\#CC3F00\\].bg-\\[\\#FF4F00\\]:nth-child(1)"
+        ],
+        [
+          "#input-\\:r2\\:-error"
+        ]
+      ]
+    }
+  ],
+  "manual": "Keyboard and controlled focus samples recorded separately. Screen-reader, real-device, 400% zoom and exhaustive state combinations are not established by axe."
+}

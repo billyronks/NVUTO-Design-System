@@ -1,0 +1,31 @@
+{
+  "name": "nvuto-hr-foundations",
+  "version": "0.1.0-extraction.1",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "files": [
+    "dist",
+    "assets",
+    "fonts",
+    "fonts.css",
+    "notices",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./tokens.json": "./dist/tokens.json",
+    "./styles.css": "./dist/styles.css",
+    "./fonts.css": "./fonts.css",
+    "./assets/*": "./assets/*"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "prepublishOnly": "node ../../scripts/block-publish.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+**/dist/
+artifacts/packed/
+artifacts/runtime/
+.playwright/
+*.tsbuildinfo
+catalogue/public/
+catalogue-dist/
+artifacts/*.tgz
+*.log
+!audit/*.log
+!audit/commands/*.log
+node-compile-cache/

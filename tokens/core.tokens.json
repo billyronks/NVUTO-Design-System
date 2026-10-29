@@ -1,0 +1,3320 @@
+{
+  "primitive": {
+    "color": {
+      "hex-f8fafc": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9725490196078431,
+            0.9803921568627451,
+            0.9882352941176471
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--background",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#F8FAFC"
+          }
+        }
+      },
+      "hex-1e293b": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11764705882352941,
+            0.1607843137254902,
+            0.23137254901960785
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--foreground",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#1e293b"
+          }
+        }
+      },
+      "hex-ffffff": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--card",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#ffffff"
+          }
+        }
+      },
+      "hex-ff4f00": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.30980392156862746,
+            0
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--primary",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#FF4F00"
+          }
+        }
+      },
+      "hex-f1f5f9": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9450980392156862,
+            0.9607843137254902,
+            0.9764705882352941
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--secondary",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#F1F5F9"
+          }
+        }
+      },
+      "hex-0f172a": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.058823529411764705,
+            0.09019607843137255,
+            0.16470588235294117
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--secondary-foreground",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#0F172A"
+          }
+        }
+      },
+      "hex-ececf0": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9254901960784314,
+            0.9254901960784314,
+            0.9411764705882353
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--muted",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#ececf0"
+          }
+        }
+      },
+      "hex-717182": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.44313725490196076,
+            0.44313725490196076,
+            0.5098039215686274
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--muted-foreground",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#717182"
+          }
+        }
+      },
+      "hex-e9ebef": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137254901960784,
+            0.9215686274509803,
+            0.9372549019607843
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--accent",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#e9ebef"
+          }
+        }
+      },
+      "hex-d4183d": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8313725490196079,
+            0.09411764705882353,
+            0.23921568627450981
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--destructive",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#d4183d"
+          }
+        }
+      },
+      "rgba-0-0-0-0-1": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0.1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--border",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "rgba(0, 0, 0, 0.1)"
+          }
+        }
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--input",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "transparent"
+          }
+        }
+      },
+      "hex-f3f3f5": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9529411764705882,
+            0.9529411764705882,
+            0.9607843137254902
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--input-background",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#f3f3f5"
+          }
+        }
+      },
+      "hex-cbced4": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.796078431372549,
+            0.807843137254902,
+            0.8313725490196079
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--switch-background",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#cbced4"
+          }
+        }
+      },
+      "hex-00d1b2": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.8196078431372549,
+            0.6980392156862745
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--ring",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#00D1B2"
+          }
+        }
+      },
+      "oklch-0-646-0-222-41-116": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.646,
+            0.222,
+            41.116
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--chart-1",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.646 0.222 41.116)"
+          }
+        }
+      },
+      "oklch-0-6-0-118-184-704": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.6,
+            0.118,
+            184.704
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--chart-2",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.6 0.118 184.704)"
+          }
+        }
+      },
+      "oklch-0-398-0-07-227-392": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.398,
+            0.07,
+            227.392
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--chart-3",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.398 0.07 227.392)"
+          }
+        }
+      },
+      "oklch-0-828-0-189-84-429": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.828,
+            0.189,
+            84.429
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--chart-4",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.828 0.189 84.429)"
+          }
+        }
+      },
+      "oklch-0-769-0-188-70-08": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.769,
+            0.188,
+            70.08
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--chart-5",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.769 0.188 70.08)"
+          }
+        }
+      },
+      "hex-e2e8f0": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8862745098039215,
+            0.9098039215686274,
+            0.9411764705882353
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--sidebar-border",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#e2e8f0"
+          }
+        }
+      },
+      "hex-334155": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2,
+            0.2549019607843137,
+            0.3333333333333333
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--slate-705",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#334155"
+          }
+        }
+      },
+      "hex-475569": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2784313725490196,
+            0.3333333333333333,
+            0.4117647058823529
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--slate-650",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#475569"
+          }
+        }
+      },
+      "hex-64748b": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.39215686274509803,
+            0.4549019607843137,
+            0.5450980392156862
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--slate-550",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#64748B"
+          }
+        }
+      },
+      "hex-94a3b8": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5803921568627451,
+            0.6392156862745098,
+            0.7215686274509804
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--slate-450",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#94A3B8"
+          }
+        }
+      },
+      "hex-cbd5e1": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.796078431372549,
+            0.8352941176470589,
+            0.8823529411764706
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ":root",
+            "symbol": "--slate-350",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#CBD5E1"
+          }
+        }
+      },
+      "hex-0b0f19": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.043137254901960784,
+            0.058823529411764705,
+            0.09803921568627451
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--background",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#0B0F19"
+          }
+        }
+      },
+      "hex-171e2e": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09019607843137255,
+            0.11764705882352941,
+            0.1803921568627451
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--card",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#171E2E"
+          }
+        }
+      },
+      "hex-111625": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.06666666666666667,
+            0.08627450980392157,
+            0.1450980392156863
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--popover",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#111625"
+          }
+        }
+      },
+      "hex-232d42": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.13725490196078433,
+            0.17647058823529413,
+            0.25882352941176473
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--accent",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#232D42"
+          }
+        }
+      },
+      "hex-be123c": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7450980392156863,
+            0.07058823529411765,
+            0.23529411764705882
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--destructive",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#BE123C"
+          }
+        }
+      },
+      "oklch-0-488-0-243-264-376": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.488,
+            0.243,
+            264.376
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--chart-1",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.488 0.243 264.376)"
+          }
+        }
+      },
+      "oklch-0-696-0-17-162-48": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.696,
+            0.17,
+            162.48
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--chart-2",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.696 0.17 162.48)"
+          }
+        }
+      },
+      "oklch-0-627-0-265-303-9": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.627,
+            0.265,
+            303.9
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--chart-4",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.627 0.265 303.9)"
+          }
+        }
+      },
+      "oklch-0-645-0-246-16-439": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.645,
+            0.246,
+            16.439
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--chart-5",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "oklch(0.645 0.246 16.439)"
+          }
+        }
+      },
+      "hex-1c2436": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.10980392156862745,
+            0.1411764705882353,
+            0.21176470588235294
+          ],
+          "alpha": 1
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/theme.css",
+            "selector": ".dark",
+            "symbol": "--border-subtle",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#1C2436"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "step-0": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "0 × 0.25rem",
+            "sourceCSS": "0rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-0-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "0.5 × 0.25rem",
+            "sourceCSS": "0.125rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-1": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "1 × 0.25rem",
+            "sourceCSS": "0.25rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-1-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.375,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "1.5 × 0.25rem",
+            "sourceCSS": "0.375rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-2": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "2 × 0.25rem",
+            "sourceCSS": "0.5rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-2-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.625,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "2.5 × 0.25rem",
+            "sourceCSS": "0.625rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-3": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "3 × 0.25rem",
+            "sourceCSS": "0.75rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-3-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "3.5 × 0.25rem",
+            "sourceCSS": "0.875rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-4": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "4 × 0.25rem",
+            "sourceCSS": "1rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "5 × 0.25rem",
+            "sourceCSS": "1.25rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-6": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "6 × 0.25rem",
+            "sourceCSS": "1.5rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-8": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "8 × 0.25rem",
+            "sourceCSS": "2rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-10": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "10 × 0.25rem",
+            "sourceCSS": "2.5rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-12": {
+        "$type": "dimension",
+        "$value": {
+          "value": 3,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "12 × 0.25rem",
+            "sourceCSS": "3rem",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "step-16": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/tailwind.css",
+            "symbol": "Tailwind 4 spacing scale used by component utilities",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "derivation": "16 × 0.25rem",
+            "sourceCSS": "4rem",
+            "adoption": "candidate"
+          }
+        }
+      }
+    },
+    "size": {
+      "px-16": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-16",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "16px"
+          }
+        }
+      },
+      "px-18": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-18",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "18px"
+          }
+        }
+      },
+      "px-20": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-20",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "20px"
+          }
+        }
+      },
+      "px-24": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-24",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "24px"
+          }
+        }
+      },
+      "px-28": {
+        "$type": "dimension",
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-28",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "28px"
+          }
+        }
+      },
+      "px-36": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-36",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "36px"
+          }
+        }
+      },
+      "px-44": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-44",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "44px"
+          }
+        }
+      },
+      "px-48": {
+        "$type": "dimension",
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-48",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "48px"
+          }
+        }
+      },
+      "px-56": {
+        "$type": "dimension",
+        "$value": {
+          "value": 56,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-56",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "56px"
+          }
+        }
+      },
+      "px-240": {
+        "$type": "dimension",
+        "$value": {
+          "value": 240,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-240",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "240px"
+          }
+        }
+      },
+      "px-280": {
+        "$type": "dimension",
+        "$value": {
+          "value": 280,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-280",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "280px"
+          }
+        }
+      },
+      "px-320": {
+        "$type": "dimension",
+        "$value": {
+          "value": 320,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-320",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "320px"
+          }
+        }
+      },
+      "px-512": {
+        "$type": "dimension",
+        "$value": {
+          "value": 512,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "px-512",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "reason": "Pixel interpretation of observed shared utility sizes; validate individual use against utility inventory",
+            "sourceCSS": "512px"
+          }
+        }
+      }
+    },
+    "motion": {
+      "ms-150": {
+        "$type": "duration",
+        "$value": {
+          "value": 150,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "ms-150",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "sourceCSS": "150ms"
+          }
+        }
+      },
+      "ms-180": {
+        "$type": "duration",
+        "$value": {
+          "value": 180,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/app/components/ui/Modal.tsx",
+            "symbol": "ms-180",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "180ms"
+          }
+        }
+      },
+      "ms-200": {
+        "$type": "duration",
+        "$value": {
+          "value": 200,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/app/components/ui/Modal.tsx",
+            "symbol": "ms-200",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "200ms"
+          }
+        }
+      },
+      "ms-300": {
+        "$type": "duration",
+        "$value": {
+          "value": 300,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "audit/utility-values.json",
+            "symbol": "ms-300",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "INFERRED",
+            "adoption": "candidate",
+            "sourceCSS": "300ms"
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "button": {
+      "height": {
+        "$type": "dimension",
+        "$value": "{primitive.size.px-44}",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/app/components/ui/button.tsx",
+            "symbol": "buttonVariants.size.md",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate"
+          }
+        }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{semantic.primary}",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/app/components/ui/button.tsx",
+            "symbol": "buttonVariants.variant.primary",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "PROPOSED",
+            "reason": "Alias matches observed source primary value; does not normalize contrasting component values",
+            "adoption": "candidate"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "nvuto-display-xl": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "2.25rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "2.75rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 700,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "700"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "-0.02em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "-0.02em"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#020617",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-xl",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#020617"
+          }
+        }
+      }
+    },
+    "nvuto-display-lg": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "2.25rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 700,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "700"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "-0.015em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "-0.015em"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#0F172A",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-display-lg",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#0F172A"
+          }
+        }
+      }
+    },
+    "nvuto-h1": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.75rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "600"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "-0.01em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "-0.01em"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#0F172A",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h1",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#0F172A"
+          }
+        }
+      }
+    },
+    "nvuto-h2": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.5rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "600"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0em"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#1E293B",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h2",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#1E293B"
+          }
+        }
+      }
+    },
+    "nvuto-h3": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.6875,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.6875rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 700,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "700"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0.05em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.05em"
+          }
+        }
+      },
+      "text-transform": {
+        "$type": "string",
+        "$value": "uppercase",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "text-transform",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "uppercase"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#64748B",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-h3",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#64748B"
+          }
+        }
+      }
+    },
+    "nvuto-body-lg": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.9375,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.9375rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.375,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.375rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "400"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#334155",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#334155"
+          }
+        }
+      }
+    },
+    "nvuto-body-lg-medium": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg-medium",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.9375,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg-medium",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.9375rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.375,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg-medium",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.375rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg-medium",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "500"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#334155",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-lg-medium",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#334155"
+          }
+        }
+      }
+    },
+    "nvuto-body": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.8125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.8125rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "400"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#475569",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#475569"
+          }
+        }
+      }
+    },
+    "nvuto-body-medium": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-medium",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.8125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-medium",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.8125rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-medium",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-medium",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "500"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#475569",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-body-medium",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#475569"
+          }
+        }
+      }
+    },
+    "nvuto-caption": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "400"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#64748B",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#64748B"
+          }
+        }
+      }
+    },
+    "nvuto-caption-medium": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption-medium",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption-medium",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption-medium",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption-medium",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "500"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#64748B",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-caption-medium",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#64748B"
+          }
+        }
+      }
+    },
+    "nvuto-label": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "500"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0.01em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.01em"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#334155",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-label",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#334155"
+          }
+        }
+      }
+    },
+    "nvuto-input-text": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-input-text",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.8125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-input-text",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.8125rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-input-text",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-input-text",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "400"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#0F172A",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-input-text",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#0F172A"
+          }
+        }
+      }
+    },
+    "nvuto-btn-text": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.8125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.8125rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.125,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.125rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "600"
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0.01em",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text",
+            "symbol": "letter-spacing",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.01em"
+          }
+        }
+      }
+    },
+    "nvuto-btn-text-compact": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text-compact",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.6875,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text-compact",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.6875rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text-compact",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.875rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-text-compact",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "600"
+          }
+        }
+      }
+    },
+    "nvuto-btn-primary": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-sans)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-sans)"
+          }
+        }
+      },
+      "background-color": {
+        "$type": "string",
+        "$value": "#FF4F00",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "background-color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#FF4F00"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#FFFFFF"
+          }
+        }
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "44px"
+          }
+        }
+      },
+      "min-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "min-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "44px"
+          }
+        }
+      },
+      "padding-left": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "padding-left",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "padding-right": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "padding-right",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.875rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.25rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 700,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "700"
+          }
+        }
+      },
+      "border-radius": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "border-radius",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.5rem"
+          }
+        }
+      },
+      "border": {
+        "$type": "string",
+        "$value": "none",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "border",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "none"
+          }
+        }
+      },
+      "box-shadow": {
+        "$type": "string",
+        "$value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "box-shadow",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0 1px 2px 0 rgba(0, 0, 0, 0.05)"
+          }
+        }
+      },
+      "display": {
+        "$type": "string",
+        "$value": "inline-flex",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "display",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "inline-flex"
+          }
+        }
+      },
+      "align-items": {
+        "$type": "string",
+        "$value": "center",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "align-items",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "center"
+          }
+        }
+      },
+      "justify-content": {
+        "$type": "string",
+        "$value": "center",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "justify-content",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "center"
+          }
+        }
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.5,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "gap",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.5rem"
+          }
+        }
+      },
+      "cursor": {
+        "$type": "string",
+        "$value": "pointer",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "cursor",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "pointer"
+          }
+        }
+      },
+      "user-select": {
+        "$type": "string",
+        "$value": "none",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "user-select",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "none"
+          }
+        }
+      },
+      "transition": {
+        "$type": "string",
+        "$value": "all 0.2s ease-in-out",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-btn-primary",
+            "symbol": "transition",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "all 0.2s ease-in-out"
+          }
+        }
+      }
+    },
+    "nvuto-mono": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-mono)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-mono",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-mono)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-mono",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-mono",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500,
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-mono",
+            "symbol": "font-weight",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "500"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "#1E293B",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-mono",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "#1E293B"
+          }
+        }
+      }
+    },
+    "nvuto-code": {
+      "font-family": {
+        "$type": "string",
+        "$value": "var(--font-mono)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "font-family",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--font-mono)"
+          }
+        }
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "font-size",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.75rem"
+          }
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "line-height",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1.0rem"
+          }
+        }
+      },
+      "background-color": {
+        "$type": "string",
+        "$value": "var(--slate-150)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "background-color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--slate-150)"
+          }
+        }
+      },
+      "color": {
+        "$type": "string",
+        "$value": "var(--slate-850)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "color",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "var(--slate-850)"
+          }
+        }
+      },
+      "padding": {
+        "$type": "string",
+        "$value": "0.125rem 0.375rem",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "padding",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.125rem 0.375rem"
+          }
+        }
+      },
+      "border-radius": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.25,
+          "unit": "rem"
+        },
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "border-radius",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "0.25rem"
+          }
+        }
+      },
+      "border": {
+        "$type": "string",
+        "$value": "1px solid var(--slate-250)",
+        "$extensions": {
+          "io.nvuto.extraction": {
+            "path": "src/styles/typography.css",
+            "selector": ".nvuto-code",
+            "symbol": "border",
+            "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+            "evidence": "OBSERVED",
+            "adoption": "candidate",
+            "sourceCSS": "1px solid var(--slate-250)"
+          }
+        }
+      }
+    }
+  }
+}

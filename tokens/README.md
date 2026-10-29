@@ -1,0 +1,9 @@
+# Editable token sources
+
+Edit `core.tokens.json`, `light.tokens.json` and `dark.tokens.json`, then run `npm run generate` and `node scripts/index-tokens.mjs`. `extract-tokens.mjs` and `enrich-tokens.mjs` are source-ingestion tools; rerunning ingestion can overwrite reviewed token decisions and requires comparison/review.
+
+This is a typed subset of the DTCG Format Module 2025.10. `profile.json` states deviations. Color uses structured sRGB/OKLCH values; dimension/duration retain units; font-family arrays, numbers and whole-token `{path}` aliases are supported. The project-specific `string` type preserves CSS expressions that have not been modeled as composite types; it is an explicit extension, not a standard DTCG type claim. Themes are separate documents merged with core by build configuration. Group inheritance, property references, JSON-pointer references and external token documents are unsupported.
+
+The executable schema/relationship validator is `scripts/token-lib.mjs`; tests include malformed types, unsupported constructs, missing references, cycles and CSS-name collisions. Provenance is required under `$extensions.io.nvuto.extraction` with source path, revision, selector/symbol, evidence/adoption and exact source CSS where available. Raw observations remain in `audit/raw-values.json`, `utility-values.json` and `raw-css-declarations.json`. Proposed changes remain in `audit/normalization-register.json`; observation is not approval.
+
+Generation creates namespaced CSS variables, locally scoped legacy aliases, typed JS exports and JSON values. Generated files identify their inputs/command. `npm run generate -- --check` fails on drift. Shared theme key coverage is checked before output. Neither generated CSS nor token exports establish compatibility with untested stacks or glass modes.

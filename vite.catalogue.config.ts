@@ -1,0 +1,2 @@
+import {defineConfig} from 'vite';import react from '@vitejs/plugin-react';import tailwind from '@tailwindcss/vite';import path from 'node:path';
+export default defineConfig({root:'catalogue',plugins:[react(),tailwind()],server:{fs:{allow:[path.resolve('.')]},strictPort:true},build:{outDir:'../catalogue-dist',emptyOutDir:true,rollupOptions:{input:{main:path.resolve('catalogue/index.html'),reference:path.resolve('catalogue/reference.html'),fixture:path.resolve('catalogue/fixture.html')}}}});

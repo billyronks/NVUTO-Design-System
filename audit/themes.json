@@ -1,0 +1,34 @@
+[
+  {
+    "id": "theme-light",
+    "name": "light",
+    "evidence": "OBSERVED",
+    "source": "src/styles/theme.css :root",
+    "extraction": "selected",
+    "validation": "not run"
+  },
+  {
+    "id": "theme-dark",
+    "name": "dark",
+    "evidence": "OBSERVED",
+    "source": "src/styles/theme.css .dark",
+    "extraction": "selected",
+    "validation": "not run"
+  },
+  {
+    "id": "theme-light-glass",
+    "name": "light-glass",
+    "evidence": "UNVERIFIED",
+    "source": "Desk handover reference unavailable; no HR implementation observed",
+    "extraction": "not observed",
+    "validation": "blocked — contract/source unavailable"
+  },
+  {
+    "id": "theme-dark-glass",
+    "name": "dark-glass",
+    "evidence": "UNVERIFIED",
+    "source": "Desk handover reference unavailable; no HR implementation observed",
+    "extraction": "not observed",
+    "validation": "blocked — contract/source unavailable"
+  }
+]

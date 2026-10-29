@@ -1,0 +1,15 @@
+{
+  "format": "DTCG Format Module 2025.10 typed subset",
+  "specification": "https://www.designtokens.org/tr/2025.10/format/",
+  "editable": [
+    "core.tokens.json",
+    "light.tokens.json",
+    "dark.tokens.json"
+  ],
+  "extensions": "io.nvuto.extraction preserves exact CSS source, selector, symbol, evidence and revision",
+  "deviations": [
+    "No claim of complete DTCG tool conformance: this fixed-input generator supports the listed types and whole-token curly aliases, not group $extends, property-level references, JSON-pointer $ref or externally supplied token documents. Unsupported constructs are rejected.",
+    "Additional string tokens preserve CSS expressions without pretending they are fully structured DTCG shadows/gradients.",
+    "Themes are separate token documents merged with shared core; this is project build configuration, not a new DTCG theme syntax."
+  ]
+}

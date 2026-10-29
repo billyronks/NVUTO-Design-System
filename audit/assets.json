@@ -1,0 +1,306 @@
+[
+  {
+    "id": "asset-15d62bd9efad",
+    "source": {
+      "path": "public/favicon.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "dd21cf19ab62c4e3d6d6fc452c81d83ad8939fc47a844ce568fe7dd5af825497"
+    },
+    "bytes": 792,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-6f44d3f3022e",
+    "source": {
+      "path": "public/images/integrations/glassdoor.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "c1a26a7d13cc22e3b6200563fbd6243167e3c29b10f908325c6c7f79ab90ed66"
+    },
+    "bytes": 724,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-3c5adb4e8ece",
+    "source": {
+      "path": "public/images/integrations/indeed.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "03b13830dc421dd49fabc5668e921bf3363541cce72388fae117233cf6c5a6b1"
+    },
+    "bytes": 885,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-a62c36c3ce26",
+    "source": {
+      "path": "public/images/integrations/jobberman.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "f77d17f862ba4e78df0f4830354d471fbdaccbfacbef0593b18827b555b743cb"
+    },
+    "bytes": 1295,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-8737ef5b3f76",
+    "source": {
+      "path": "public/images/integrations/jobberman.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "de35aebfaef8c848e2c9c03e7ad8f28fef7838b71e58a57f1e18e7a5c6a42110"
+    },
+    "bytes": 1739,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-5bf677c5c7b0",
+    "source": {
+      "path": "public/images/integrations/jooble.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "8dbab70142e7c6fc78df008bf394141b5b5e40bf46447d6f38506b95b11f78d5"
+    },
+    "bytes": 8286,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-efbfcd40f605",
+    "source": {
+      "path": "public/images/integrations/linkedin.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "c9ffee4eadc20e99a2cd326a8774e39ba09cd81253d228c4b70dd89c447ace7f"
+    },
+    "bytes": 549,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-b4c6e77697cb",
+    "source": {
+      "path": "public/images/integrations/myjobmag.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "cea3345f93b80ae3c66d9cedd7a213c98a84b38891e82df8cac355eaf8af757a"
+    },
+    "bytes": 4527,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-93284aea2412",
+    "source": {
+      "path": "public/images/integrations/ziprecruiter-icon.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "a6ec1abbbd41ab02307d2bf36f72bd72e88a512adb85297e1418674c2a8e6164"
+    },
+    "bytes": 1171,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-ba3ebef2abe9",
+    "source": {
+      "path": "public/images/integrations/ziprecruiter.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "8c409ec6e9550c081f0f7e37e2fd6bbf865f1c95a46762d64215f9e11f548842"
+    },
+    "bytes": 4297,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-5747514e7a87",
+    "source": {
+      "path": "src/assets/NVUTO HR White.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "25006b7ae65541b758c86c7791ef2b822dc259597a4641c5b15b3f0577c64ad2"
+    },
+    "bytes": 2852,
+    "extraction": "extracted",
+    "reason": "Owned-brand identity evidenced in product; no redistribution license found",
+    "destination": "packages/foundations/assets/NVUTO-HR-White.svg",
+    "validation": "packed artifact SVG load checked; brand redistribution remains unapproved",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-80ae0120339d",
+    "source": {
+      "path": "src/assets/NVUTO HR.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "82955b48ce2df8b823ae4088658a662c24831c6bd8a3ff432a8cd4ea38dc3ac7"
+    },
+    "bytes": 2852,
+    "extraction": "extracted",
+    "reason": "Owned-brand identity evidenced in product; no redistribution license found",
+    "destination": "packages/foundations/assets/NVUTO-HR.svg",
+    "validation": "packed artifact SVG load checked; brand redistribution remains unapproved",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-17b2d19b8422",
+    "source": {
+      "path": "src/assets/NVUTO Logo.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "c894927b0f4d3521e8b1a438dd3d752cd8de8b1425f785fcf56e5aa495cd8f4b"
+    },
+    "bytes": 894,
+    "extraction": "extracted",
+    "reason": "Owned-brand identity evidenced in product; no redistribution license found",
+    "destination": "packages/foundations/assets/NVUTO-Logo.svg",
+    "validation": "packed artifact SVG load checked; brand redistribution remains unapproved",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-7dae0ebbbc50",
+    "source": {
+      "path": "src/assets/NVUTO Wordmark.svg",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "3da2935982141490b1ab9d02e7af724d5589b2d209081f945d3af1c4d28fa80e"
+    },
+    "bytes": 2449,
+    "extraction": "extracted",
+    "reason": "Owned-brand identity evidenced in product; no redistribution license found",
+    "destination": "packages/foundations/assets/NVUTO-Wordmark.svg",
+    "validation": "packed artifact SVG load checked; brand redistribution remains unapproved",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-59014bb4c9a5",
+    "source": {
+      "path": "src/assets/chat_image_1.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "20df10aa90926d889a7e97cb15d3663fc3b9eeb37beb76503caa05242aa8c65b"
+    },
+    "bytes": 711371,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-84cbeb2b6656",
+    "source": {
+      "path": "src/assets/chat_image_2.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "3452342401fe7ee90ac431ba6872cf8c42dd91de069e38cdeabeb2c8c37be679"
+    },
+    "bytes": 734631,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-4b83556f9fcd",
+    "source": {
+      "path": "src/assets/chat_image_3.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "d5e6d3b4c7e5ad25e1562d1b3faac88ae7131be3c1f8448c52060b9a9f18bbd4"
+    },
+    "bytes": 832219,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-3df5db539a9d",
+    "source": {
+      "path": "src/assets/chat_image_4.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "733aea2286563cf7b29c2536babd133840704526826af56220d742d792eaabd3"
+    },
+    "bytes": 683080,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  },
+  {
+    "id": "asset-b9026c6fd34b",
+    "source": {
+      "path": "src/assets/collaborate.png",
+      "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+      "sha256": "040b5e6216479c1230e94d94a8e547fd0e050e9da8c365bf2066a83b652b2f5e"
+    },
+    "bytes": 712751,
+    "extraction": "excluded",
+    "reason": "Product imagery or third-party mark; unnecessary to shared core / rights not established",
+    "destination": "audit/assets.json",
+    "validation": "not run",
+    "evidence": "OBSERVED source file/hash",
+    "adoption": "candidate / rights review required",
+    "inspection": "source metadata enumerated; packaged candidates loaded by independent consumer"
+  }
+]

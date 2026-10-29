@@ -1,0 +1,23 @@
+
+> nvuto-design-system@0.1.0-extraction.1 build
+> npm run generate && vite build --config vite.library.config.ts && tsc -p packages/react/tsconfig.build.json && node scripts/scope-styles.mjs
+
+
+> nvuto-design-system@0.1.0-extraction.1 generate
+> node scripts/generate-tokens.mjs
+
+Generated 128 token paths × 2 themes.
+vite v6.3.5 building for production...
+transforming...
+✓ 65 modules transformed.
+rendering chunks...
+computing gzip size...
+packages/react/dist/unscoped.css  120.38 kB │ gzip: 20.35 kB
+packages/react/dist/index.js      180.30 kB │ gzip: 34.48 kB │ map: 378.56 kB
+✓ built in 1.84s
+packages/react/src/button.tsx(77,41): error TS2345: Argument of type 'MouseEvent<HTMLElement, MouseEvent>' is not assignable to parameter of type 'MouseEvent<HTMLButtonElement, MouseEvent>'.
+  Type 'HTMLElement' is missing the following properties from type 'HTMLButtonElement': disabled, form, formAction, formEnctype, and 15 more.
+packages/react/src/button.tsx(81,43): error TS2345: Argument of type 'KeyboardEvent<HTMLElement>' is not assignable to parameter of type 'KeyboardEvent<HTMLButtonElement>'.
+  Type 'HTMLElement' is missing the following properties from type 'HTMLButtonElement': disabled, form, formAction, formEnctype, and 15 more.
+packages/react/src/select.tsx(230,55): error TS2304: Cannot find name 'rawLabelText'.
+packages/react/src/select.tsx(230,70): error TS2304: Cannot find name 'rawLabelText'.

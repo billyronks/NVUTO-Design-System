@@ -1,0 +1,16 @@
+
+> nvuto-design-system@0.1.0-extraction.1 check
+> npm run generate -- --check && npm run lint && npm run typecheck && npm test
+
+
+> nvuto-design-system@0.1.0-extraction.1 generate
+> node scripts/generate-tokens.mjs --check
+
+Verified 242 token paths × 2 themes.
+
+> nvuto-design-system@0.1.0-extraction.1 lint
+> node scripts/lint.mjs
+
+
+README.md: broken relative link prompts/BUILD_NVUTO_MODULE.md
+README.md: broken relative link prompts/CONTRIBUTE_TO_DESIGN_SYSTEM.md

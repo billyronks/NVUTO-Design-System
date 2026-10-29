@@ -1,0 +1,30 @@
+{
+  "directory": "C:\\Users\\thobb\\AppData\\Local\\Temp\\nvuto-design-system-clean-OrYhod",
+  "snapshotLockSHA256": "f96270156566e685cf6631d3e06fa6ab3c84a643b6164171e6a554d4df26d38f",
+  "cleanInstall": {
+    "command": "npm ci --ignore-scripts --no-audit --no-fund --fetch-retries=0 --fetch-timeout=30000",
+    "start": "2026-10-29T09:53:06.674Z",
+    "end": "2026-10-29T09:56:20.180Z",
+    "status": 0,
+    "log": "audit/clean-install.log"
+  },
+  "priorAttempt": "audit/clean-attempt-1.json",
+  "amendment": "Corrected verifier omission of prompts and refreshed source to final extracted layouts/accessibility fixtures. Dependency lock unchanged; retained clean npm ci reused. Previous failures/logs preserved.",
+  "commands": [
+    {
+      "command": "npm run build",
+      "start": "2026-10-29T09:59:39.031Z",
+      "end": "2026-10-29T09:59:55.650Z",
+      "status": 0,
+      "log": "audit/clean-build.log"
+    },
+    {
+      "command": "npm run check",
+      "start": "2026-10-29T09:59:55.651Z",
+      "end": "2026-10-29T10:01:42.020Z",
+      "status": 1,
+      "log": "audit/clean-check.log"
+    }
+  ],
+  "result": "FAIL"
+}

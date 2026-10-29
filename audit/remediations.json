@@ -1,0 +1,179 @@
+[
+  {
+    "id": "business-select",
+    "file": "select.tsx",
+    "change": "Removed organization-option query/inference. Host must supply options.",
+    "effect": "Removes React Query and all requisition dependencies; API options preserve presentation.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "domain-status",
+    "file": "StatusBadge.tsx",
+    "change": "Removed inferred business status-to-color map.",
+    "effect": "Caller supplies variant; unknown/omitted variant is neutral. Never defines payroll or lifecycle policy.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "scoped-portals",
+    "file": "NvutoProvider.tsx",
+    "change": "Added scoped theme and portal adapter.",
+    "effect": "Overlays remain in provider root rather than document.body. Provider is required; no global document theme mutation.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "stable-ids",
+    "file": "input.tsx;Radio.tsx;select.tsx;SearchableCombobox.tsx;MultiSelectCombobox.tsx",
+    "change": "Replace random IDs with React.useId.",
+    "effect": "SSR/hydration stable labels; generated ID string itself changes.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "global-listeners",
+    "file": "input.tsx",
+    "change": "Remove module-level document date-input listeners.",
+    "effect": "Only this Input invokes its date picker. No unrelated host controls affected.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "disabled-slot",
+    "file": "button.tsx",
+    "change": "Prevent click/keyboard activation of disabled slotted children; remove tab stop.",
+    "effect": "Behavioral source defect remediation. Loading exposes aria-busy. Default type becomes button.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "switch-label",
+    "file": "ToggleSwitch.tsx",
+    "change": "Use linked label and stable switch ID.",
+    "effect": "Single toggle per click; accessible name provided by label.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "input-error",
+    "file": "input.tsx",
+    "change": "Link error text and invalid state; forward required.",
+    "effect": "Screen reader can discover validation feedback.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "global-scrollbars",
+    "file": "styles.css",
+    "change": "Do not hide every scrollbar. Scope source CSS to .nvuto-root.",
+    "effect": "Visible host scrolling retained. Tailwind @property --tw-* registrations are a documented global CSS boundary.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "reduced-motion",
+    "file": "styles.css",
+    "change": "Reduce animation/transition duration under prefers-reduced-motion.",
+    "effect": "Accessibility extraction override; static fidelity fixtures disable animation in both versions.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "slot-patterns",
+    "file": "patterns.tsx",
+    "change": "Add presentational shell/list/settings/state/step slots.",
+    "effect": "PROPOSED APIs based on source composition geometry. No router, auth, stores, workflow or business status definitions.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "fonts",
+    "file": "fonts.css",
+    "change": "Package local Latin Poppins and JetBrains Mono subsets with OFL notices.",
+    "effect": "Source uses network Google Fonts. Non-Latin glyph coverage/fallback and source font-network performance are not validated.",
+    "evidence": "PROPOSED extraction remediation",
+    "adoption": "candidate",
+    "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09"
+  },
+  {
+    "id": "radix-overlay-ref",
+    "file": "dialog.tsx",
+    "change": "Forward DialogOverlay ref required by Radix presence/portal composition on React18.",
+    "effect": "Removes lost-ref warning in tested overlay path; visual classes unchanged.",
+    "evidence": "OBSERVED test warning / PROPOSED local remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "layout-adapters",
+    "file": "layouts.tsx",
+    "change": "Extract dual rails, role disclosures, header slots, navigation bars and page shells. Remove auth/RBAC/router/prefetch/localStorage/company fallbacks; require explicit input.",
+    "effect": "Source geometry retained where shared. Disclosure links are hidden from keyboard when collapsed; 44px disclosure targets; mobile drawer focus delegated to Radix; narrow rail width constrained. Marketing decorative effects/certification claims excluded, no glass theme inferred.",
+    "evidence": "OBSERVED source and PROPOSED adapter/remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "mobile-layout-focus",
+    "file": "layouts.tsx",
+    "change": "Capture external drawer opener focus within workspace and restore it on close.",
+    "effect": "Controlled Sheet can return focus even when host trigger is outside Radix Trigger.",
+    "evidence": "FAILED browser regression then local remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "reference-font-transport",
+    "file": "catalogue/reference.css",
+    "change": "Preserve exact source font fallback stack in reference baseline.",
+    "effect": "Fixes reference-fixture omission; six source/extraction pixel comparisons were already identical.",
+    "evidence": "OBSERVED comparison discrepancy",
+    "adoption": "candidate"
+  },
+  {
+    "id": "scroll-viewport",
+    "file": "scroll-area.tsx",
+    "change": "Make viewport keyboard reachable and labeled; retain visible scrollbar control.",
+    "evidence": "OBSERVED automated failure / PROPOSED extraction remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "touch-targets",
+    "file": "input.tsx;Radio.tsx",
+    "change": "Keep password icon position with 44px target/focus indicator; expand radio label target.",
+    "evidence": "OBSERVED automated failure / PROPOSED extraction remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "slider-name",
+    "file": "slider.tsx",
+    "change": "Forward caller accessible name to actual slider thumbs.",
+    "evidence": "OBSERVED automated failure / PROPOSED extraction remediation",
+    "adoption": "candidate"
+  },
+  {
+    "id": "example-disclosure-spacing",
+    "file": "catalogue/catalogue.css",
+    "change": "Separate runnable-code disclosure targets from compact UI previews by the observed 24px spacing token.",
+    "effect": "Fixes catalogue-only target-spacing regressions introduced by replacing static code blocks with interactive disclosures; source control geometry remains unchanged.",
+    "evidence": "OBSERVED AA scan regression",
+    "adoption": "candidate"
+  },
+  {
+    "id": "auth-layout-variants",
+    "file": "layouts.tsx",
+    "change": "Preserve split login and centered recovery/reset card as separate explicit AuthLayout variants.",
+    "evidence": "OBSERVED LoginPage/ForgotPasswordPage/ResetPasswordPage/ForcePasswordReset geometry; PROPOSED variant API",
+    "adoption": "candidate",
+    "effect": "No authentication, recovery token or password policy copied."
+  }
+]

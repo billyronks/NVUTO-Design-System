@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';
+fs.mkdirSync('artifacts',{recursive:true});const receipts=[];
+for(const name of ['foundations','react']){const args=['pack',`./packages/${name}`,'--pack-destination','artifacts','--json','--ignore-scripts'];const run=spawnSync(process.execPath,[process.env.npm_execpath||path.resolve('node_modules/npm/bin/npm-cli.js'),...args],{encoding:'utf8',shell:false});if(run.status!==0)throw Error(run.stderr||run.stdout);const info=JSON.parse(run.stdout)[0];if(!info.files.some(f=>f.path==='dist/index.js')||!info.files.some(f=>f.path==='dist/styles.css'))throw Error('Missing exports '+name);receipts.push(info);}
+fs.writeFileSync('audit/pack-results.json',JSON.stringify(receipts,null,2)+'\n');console.log(receipts.map(x=>({file:x.filename,files:x.files.length,size:x.size})));

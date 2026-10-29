@@ -1,0 +1,43 @@
+
+> nvuto-design-system@0.1.0-extraction.1 build:catalogue
+> npm run prepare:catalogue && vite build --config vite.catalogue.config.ts
+
+
+> nvuto-design-system@0.1.0-extraction.1 prepare:catalogue
+> node scripts/prepare-catalogue.mjs
+
+Prepared local documentation downloads; no publication.
+vite v6.3.5 building for production...
+transforming...
+✓ 6162 modules transformed.
+rendering chunks...
+computing gzip size...
+../catalogue-dist/reference.html                                           0.63 kB │ gzip:   0.34 kB
+../catalogue-dist/index.html                                               0.68 kB │ gzip:   0.35 kB
+../catalogue-dist/fixture.html                                             0.69 kB │ gzip:   0.35 kB
+../catalogue-dist/assets/poppins-latin-500-normal-C8OXljZJ.woff2           7.75 kB
+../catalogue-dist/assets/poppins-latin-700-normal-Qrb0O0WB.woff2           7.82 kB
+../catalogue-dist/assets/poppins-latin-800-normal-Bd8-pIP1.woff2           7.82 kB
+../catalogue-dist/assets/poppins-latin-300-normal-Dku2WoCh.woff2           7.84 kB
+../catalogue-dist/assets/poppins-latin-400-normal-cpxAROuN.woff2           7.88 kB
+../catalogue-dist/assets/poppins-latin-600-normal-zEkxB9Mr.woff2           8.00 kB
+../catalogue-dist/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2   21.17 kB
+../catalogue-dist/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2   21.83 kB
+../catalogue-dist/assets/jetbrains-mono-latin-600-normal-C8RAYTDA.woff2   21.86 kB
+../catalogue-dist/assets/fonts-BZ4v-Lir.css                                1.45 kB │ gzip:   0.30 kB
+../catalogue-dist/assets/main-DpnIO6ta.css                                 1.51 kB │ gzip:   0.59 kB
+../catalogue-dist/assets/reference-CMsInJTx.css                          126.65 kB │ gzip:  21.13 kB
+../catalogue-dist/assets/styles-6Uo3uBBt.css                             170.54 kB │ gzip:  24.89 kB
+../catalogue-dist/assets/fixture-DfW5_9bA.js                               0.33 kB │ gzip:   0.25 kB
+../catalogue-dist/assets/fixture-layout-MJV65WuG.js                        1.95 kB │ gzip:   0.76 kB
+../catalogue-dist/assets/reference-DBcVCGX8.js                            19.95 kB │ gzip:   5.95 kB
+../catalogue-dist/assets/fonts-JW0bkhfx.js                               231.46 kB │ gzip:  70.72 kB
+../catalogue-dist/assets/main-B6nFnV3j.js                                586.49 kB │ gzip: 124.70 kB
+../catalogue-dist/assets/styles-DVwja1pt.js                              724.71 kB │ gzip: 214.52 kB
+✓ built in 27.61s
+
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

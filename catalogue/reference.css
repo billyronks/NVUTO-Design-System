@@ -1,0 +1,11 @@
+@import 'tailwindcss' source(none);
+@source '../audit/as-is/src/app/components/ui/**/*.{ts,tsx}';
+@import 'tw-animate-css';
+@import './source-fonts.css';
+@import '../audit/as-is/src/styles/theme.css';
+@import '../audit/as-is/src/styles/typography.css';
+@import '../audit/as-is/src/styles/responsive.css';
+@custom-variant dark (&:where(.dark, .dark *));
+/* Reference loading substitution: same source families/weights, local Latin
+ * binaries replace Google Fonts network transport. No source component edits. */
+

@@ -1,0 +1,895 @@
+{
+  "semantic": {
+    "font-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--font-size",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "16px"
+        }
+      }
+    },
+    "background": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-0b0f19}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--background",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#0B0F19"
+        }
+      }
+    },
+    "foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "card": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--card",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "card-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--card-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "popover": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-111625}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--popover",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#111625"
+        }
+      }
+    },
+    "popover-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--popover-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ff4f00}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--primary",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#FF4F00"
+        }
+      }
+    },
+    "primary-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ffffff}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--primary-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#ffffff"
+        }
+      }
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ff4f00}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--brand",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#FF4F00"
+        }
+      }
+    },
+    "brand-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ffffff}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--brand-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#ffffff"
+        }
+      }
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--secondary",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "secondary-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--secondary-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--muted",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "muted-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-94a3b8}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--muted-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#94A3B8"
+        }
+      }
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-232d42}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--accent",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#232D42"
+        }
+      }
+    },
+    "accent-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--accent-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "destructive": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-be123c}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--destructive",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#BE123C"
+        }
+      }
+    },
+    "destructive-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ffffff}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--destructive-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#ffffff"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-232d42}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--border",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#232D42"
+        }
+      }
+    },
+    "input": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--input",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "input-background": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--input-background",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "switch-background": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-cbced4}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--switch-background",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#cbced4"
+        }
+      }
+    },
+    "font-weight-medium": {
+      "$type": "number",
+      "$value": 500,
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--font-weight-medium",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "500"
+        }
+      }
+    },
+    "font-weight-normal": {
+      "$type": "number",
+      "$value": 400,
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--font-weight-normal",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "400"
+        }
+      }
+    },
+    "ring": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-00d1b2}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--ring",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#00D1B2"
+        }
+      }
+    },
+    "chart-1": {
+      "$type": "color",
+      "$value": "{primitive.color.oklch-0-488-0-243-264-376}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--chart-1",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "oklch(0.488 0.243 264.376)"
+        }
+      }
+    },
+    "chart-2": {
+      "$type": "color",
+      "$value": "{primitive.color.oklch-0-696-0-17-162-48}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--chart-2",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "oklch(0.696 0.17 162.48)"
+        }
+      }
+    },
+    "chart-3": {
+      "$type": "color",
+      "$value": "{primitive.color.oklch-0-769-0-188-70-08}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--chart-3",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "oklch(0.769 0.188 70.08)"
+        }
+      }
+    },
+    "chart-4": {
+      "$type": "color",
+      "$value": "{primitive.color.oklch-0-627-0-265-303-9}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--chart-4",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "oklch(0.627 0.265 303.9)"
+        }
+      }
+    },
+    "chart-5": {
+      "$type": "color",
+      "$value": "{primitive.color.oklch-0-645-0-246-16-439}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--chart-5",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "oklch(0.645 0.246 16.439)"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0.625,
+        "unit": "rem"
+      },
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--radius",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "0.625rem"
+        }
+      }
+    },
+    "sidebar": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-111625}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#111625"
+        }
+      }
+    },
+    "sidebar-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "sidebar-primary": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ff4f00}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-primary",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#FF4F00"
+        }
+      }
+    },
+    "sidebar-primary-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-ffffff}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-primary-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#ffffff"
+        }
+      }
+    },
+    "sidebar-accent": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-accent",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "sidebar-accent-foreground": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f8fafc}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-accent-foreground",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F8FAFC"
+        }
+      }
+    },
+    "sidebar-border": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-232d42}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-border",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#232D42"
+        }
+      }
+    },
+    "sidebar-ring": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-00d1b2}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--sidebar-ring",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#00D1B2"
+        }
+      }
+    },
+    "font-sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "Poppins",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Roboto",
+        "sans-serif"
+      ],
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--font-sans",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        }
+      }
+    },
+    "font-mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "JetBrains Mono",
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "monospace"
+      ],
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--font-mono",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        }
+      }
+    },
+    "slate-850": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-f1f5f9}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-850",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#F1F5F9"
+        }
+      }
+    },
+    "slate-705": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-e2e8f0}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-705",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#E2E8F0"
+        }
+      }
+    },
+    "slate-650": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-cbd5e1}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-650",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#CBD5E1"
+        }
+      }
+    },
+    "slate-550": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-94a3b8}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-550",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#94A3B8"
+        }
+      }
+    },
+    "slate-450": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-64748b}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-450",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#64748B"
+        }
+      }
+    },
+    "slate-350": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-475569}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-350",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#475569"
+        }
+      }
+    },
+    "slate-250": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-334155}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-250",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#334155"
+        }
+      }
+    },
+    "slate-150": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-1e293b}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--slate-150",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#1E293B"
+        }
+      }
+    },
+    "surface-page": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-0b0f19}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--surface-page",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#0B0F19"
+        }
+      }
+    },
+    "surface-primary": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-111625}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--surface-primary",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#111625"
+        }
+      }
+    },
+    "surface-secondary": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--surface-secondary",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "surface-elevated": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-171e2e}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--surface-elevated",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#171E2E"
+        }
+      }
+    },
+    "surface-muted": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-0b0f19}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--surface-muted",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#0B0F19"
+        }
+      }
+    },
+    "border-default": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-232d42}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--border-default",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#232D42"
+        }
+      }
+    },
+    "border-subtle": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-1c2436}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--border-subtle",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#1C2436"
+        }
+      }
+    },
+    "border-strong": {
+      "$type": "color",
+      "$value": "{primitive.color.hex-334155}",
+      "$extensions": {
+        "io.nvuto.extraction": {
+          "path": "src/styles/theme.css",
+          "selector": ".dark",
+          "symbol": "--border-strong",
+          "revision": "0d10fa1e5ebeab3c41882c5c7688dcfd38af3f09",
+          "evidence": "OBSERVED",
+          "adoption": "candidate",
+          "sourceCSS": "#334155"
+        }
+      }
+    }
+  }
+}
